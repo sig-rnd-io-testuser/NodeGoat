@@ -1,0 +1,2 @@
+scm-discovery /var/folders/nh/fdzv0dcj5fz72k757z0hr1sr0000gp/T/tempDir141847334/data.json
+{"level":"info","logger":"SCM Discovery","msg":"Pipeline triggered for GitHub Pull request event","time":"2024-02-23 13:06:37.0507 IST"}

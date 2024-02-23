@@ -1,0 +1,282 @@
+2024-02-23 13:06:36.4479 IST [Synopsys Bridge] INFO: Starting adapters for stage polaris
+2024-02-23 13:06:36.4508 IST [Synopsys Bridge] INFO: Starting Adapter: Polaris Policy Checker
+2024-02-23 13:06:36.4508 IST [Synopsys Bridge] INFO: Starting Adapter: Polaris Controller
+2024-02-23 13:06:36.4509 IST [Synopsys Bridge] INFO: Starting Adapter: Polaris SCM Discovery
+2024-02-23 13:06:36.4509 IST [Synopsys Bridge] INFO: Starting Adapter: Polaris Initializer
+2024-02-23 13:06:36.4509 IST [Synopsys Bridge] INFO: Starting Adapter: Polaris Waiter
+2024-02-23 13:06:36.4509 IST [Synopsys Bridge] INFO: Starting Adapter: Polaris Artifacts Uploader
+2024-02-23 13:06:36.4509 IST [Synopsys Bridge] INFO: Starting Adapter: Polaris Issues Fetcher
+2024-02-23 13:06:37.0507 IST [Polaris SCM Discovery] INFO: Pipeline triggered for GitHub Pull request event
+2024-02-23 13:06:37.0606 IST [Synopsys Bridge] WARNING: A default adapter already exists for the resource "environment.scan.pull", overwriting it
+2024-02-23 13:06:37.0608 IST [Polaris SCM Discovery] INFO: Provided value for resource 'scm.branch.name'
+2024-02-23 13:06:37.0608 IST [Polaris SCM Discovery] DEBUG: Provided value 'main' for resource 'scm.branch.name'
+2024-02-23 13:06:37.0622 IST [Polaris SCM Discovery] INFO: Adapter finished
+2024-02-23 13:06:38.8480 IST [Polaris Initializer] DEBUG: Successfully fetched portfolio id : a8389446-9e48-4a1c-87b3-f9b22196824b
+2024-02-23 13:06:39.2060 IST [Polaris Initializer] DEBUG: Successfully fetched application id : 2da10964-6b54-4a9d-8fbf-33379ca6d6f2
+2024-02-23 13:06:39.5119 IST [Polaris Initializer] INFO: project doesn't exist. Will create new project as 'polaris.onboarding' is set to 'true'
+2024-02-23 13:06:39.9311 IST [Polaris Initializer] DEBUG: successfully created the project: projectId=fe2e2c5c-dc4d-4baa-ba83-1573d6cec7db, branchId=cfd0d335-61e8-4262-a3d8-029075bc7878
+2024-02-23 13:06:39.9313 IST [Polaris Initializer] DEBUG: Creating test for "SCA" assessment
+2024-02-23 13:06:40.5442 IST [Polaris Initializer] INFO: Successfully created test for "SCA" assessment
+2024-02-23 13:06:40.5554 IST [Polaris Initializer] INFO: Provided value for resource 'polaris.test.SCA.id'
+2024-02-23 13:06:40.5554 IST [Polaris Initializer] DEBUG: Provided value '43cec1b9-34de-4976-828e-a278403c6eb8' for resource 'polaris.test.SCA.id'
+2024-02-23 13:06:40.5556 IST [Polaris Initializer] INFO: Provided value for resource 'polaris.project.id'
+2024-02-23 13:06:40.5556 IST [Polaris Initializer] DEBUG: Provided value 'fe2e2c5c-dc4d-4baa-ba83-1573d6cec7db' for resource 'polaris.project.id'
+2024-02-23 13:06:40.5558 IST [Polaris Initializer] INFO: Provided value for resource 'polaris.branch.id'
+2024-02-23 13:06:40.5558 IST [Polaris Initializer] DEBUG: Provided value 'cfd0d335-61e8-4262-a3d8-029075bc7878' for resource 'polaris.branch.id'
+2024-02-23 13:06:40.5560 IST [Polaris Initializer] INFO: Provided value for resource 'polaris.portfolioid'
+2024-02-23 13:06:40.5560 IST [Polaris Initializer] DEBUG: Provided value 'a8389446-9e48-4a1c-87b3-f9b22196824b' for resource 'polaris.portfolioid'
+2024-02-23 13:06:40.5569 IST [Polaris Initializer] INFO: Adapter finished
+2024-02-23 13:06:40.5750 IST [Synopsys Bridge] INFO: New adapter loaded: Set Environment Scan Pull
+2024-02-23 13:06:40.5754 IST [Synopsys Bridge] INFO: Starting Adapter: Set Environment Scan Pull
+2024-02-23 13:06:40.5756 IST [Set Environment Scan Pull] INFO: Provided value for resource 'environment.scan.pull'
+2024-02-23 13:06:40.5756 IST [Set Environment Scan Pull] DEBUG: Provided value 'true' for resource 'environment.scan.pull'
+2024-02-23 13:06:40.5756 IST [Set Environment Scan Pull] INFO: Adapter finished
+2024-02-23 13:06:41.0125 IST [Polaris Controller] INFO: fetching recommended "blackduck" tool info...
+2024-02-23 13:06:41.9819 IST [Polaris Controller] INFO: checking "blackduck" tool installation inside bridge home directory: /Users/chakrava/.synopsys/bridge/tools/synopsys-detect/9.0.0
+2024-02-23 13:06:44.3512 IST [Polaris Controller] INFO: "blackduck" tool is already installed...
+2024-02-23 13:06:44.3625 IST [Synopsys Bridge] INFO: New adapter loaded: Blackduck Execution
+2024-02-23 13:06:44.3954 IST [Synopsys Bridge] INFO: Starting Adapter: Blackduck Execution
+2024-02-23 13:06:44.3958 IST [Polaris Controller] INFO: Provided value for resource 'blackduck.id'
+2024-02-23 13:06:44.3958 IST [Polaris Controller] DEBUG: Provided value 'synopsys_detect:9.0.0' for resource 'blackduck.id'
+2024-02-23 13:06:44.3970 IST [Polaris Controller] INFO: Adapter finished
+2024-02-23 13:06:44.4047 IST [Synopsys Bridge] INFO: New adapter loaded: Default Adapter for execution path
+2024-02-23 13:06:44.4049 IST [Synopsys Bridge] INFO: Starting Adapter: Default Adapter for execution path
+2024-02-23 13:06:44.4054 IST [Default Adapter for execution path] INFO: Provided value for resource 'blackduck.execution.path'
+2024-02-23 13:06:44.4055 IST [Default Adapter for execution path] DEBUG: Provided value '/Users/chakrava/.synopsys/bridge/tools/synopsys-detect/9.0.0/synopsys_detect-9.0.0.jar' for resource 'blackduck.execution.path'
+2024-02-23 13:06:44.4055 IST [Default Adapter for execution path] INFO: Adapter finished
+2024-02-23 13:06:44.8021 IST [Blackduck Execution] INFO: Running command java -jar /Users/chakrava/.synopsys/bridge/tools/synopsys-detect/9.0.0/synopsys_detect-9.0.0.jar --detect.cleanup=false --detect.bdio.file.name=scan --detect.bdio.output.path=/Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/bdio/blackduck_artifact --detect.output.path=/Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect --detect.diagnostic=true --detect.tools=DETECTOR --blackduck.offline.mode=true --blackduck.offline.mode.force.bdio=true
+2024-02-23 13:06:45.0000 IST [Blackduck Execution] [main] WARNING: --- Detect-Self-Updater:  Self-Update feature is disabled because of the following reasons:
+2024-02-23 13:06:45.0000 IST [Blackduck Execution] [main] WARNING: --- Detect-Self-Updater:  Detect in offline mode is incompatible with the Self-Update feature.
+2024-02-23 13:06:45.0000 IST [Blackduck Execution] [main] WARNING: --- Detect-Self-Updater:  Black Duck URL is required for the Self-Update feature.
+2024-02-23 13:06:45.7843 IST [Blackduck Execution] INFO: ______     _            _
+2024-02-23 13:06:45.7843 IST [Blackduck Execution] INFO: |  _  \   | |          | |
+2024-02-23 13:06:45.7844 IST [Blackduck Execution] INFO: | | | |___| |_ ___  ___| |_
+2024-02-23 13:06:45.7844 IST [Blackduck Execution] INFO: | | | / _ \ __/ _ \/ __| __|
+2024-02-23 13:06:45.7844 IST [Blackduck Execution] INFO: | |/ /  __/ ||  __/ (__| |_
+2024-02-23 13:06:45.7845 IST [Blackduck Execution] INFO: |___/ \___|\__\___|\___|\__|
+2024-02-23 13:06:45.7845 IST [Blackduck Execution] INFO: 
+2024-02-23 13:06:45.9693 IST [Blackduck Execution] INFO: 
+2024-02-23 13:06:45.9694 IST [Blackduck Execution] INFO: Detect Version: 9.0.0
+2024-02-23 13:06:45.9694 IST [Blackduck Execution] INFO: 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Current property values:
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- --property = value [notes]
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- ------------------------------------------------------------
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- blackduck.offline.mode = true [cmd] 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- blackduck.offline.mode.force.bdio = true [cmd] 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- detect.bdio.file.name = scan [cmd] 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- detect.bdio.output.path = /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/bdio/blackduck_artifact [cmd] 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- detect.cleanup = false [cmd] 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- detect.diagnostic = true [cmd] 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- detect.excluded.directories = /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge [env] 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- detect.output.path = /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect [cmd] 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- detect.tools = DETECTOR [cmd] 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- ------------------------------------------------------------
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Detect build date: 2023-09-12
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Source directory: /Users/chakrava/go/src/scan_projects/NodeGoat
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Output directory: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Run directory: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922
+2024-02-23 13:06:46.1277 IST [Blackduck Execution] INFO: 
+2024-02-23 13:06:46.1278 IST [Blackduck Execution] INFO: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024-02-23 13:06:46.1278 IST [Blackduck Execution] INFO: Diagnostic mode on.
+2024-02-23 13:06:46.1279 IST [Blackduck Execution] INFO: A zip file will be created with logs and relevant Detect output files.
+2024-02-23 13:06:46.1280 IST [Blackduck Execution] INFO: It is generally not recommended to leave diagnostic mode on as you must manually clean up the zip.
+2024-02-23 13:06:46.1280 IST [Blackduck Execution] INFO: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2024-02-23 13:06:46.1280 IST [Blackduck Execution] INFO: 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Initializing diagnostic components.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Created report file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/reports/search_report.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Created report file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/reports/search_detailed_report.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Created report file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/reports/detector_report.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Created report file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/reports/detector_profile_report.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Created report file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/reports/code_location_report.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Created report file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/reports/dependency_counts_report.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Created report file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/reports/detect_configuration.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Attempting to capture sysout.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Writing sysout to file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/logs/sysout.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Attempting to set 'com.synopsys.integration' logging level.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Attempting to capture additional log messages to files.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Redirected to file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/logs/all.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Redirected to file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/logs/debug.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Redirected to file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/logs/info.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Attempting to restrict console to debug level (additional levels written to files).
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Adding additional log listeners to extractions.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Diagnostics is now in control of logging!
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Creating configuration diagnostics reports.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Diagnostics system is ready.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Main boot completed. Deciding what Detect should do.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Black Duck will run: Black Duck offline mode was set to true.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Decided what products will be run. Starting product boot.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Detect product boot start.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Detect product boot completed.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Detect boot completed.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Detect will attempt to run.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Unable to guess detect jar file, relative jar file was null.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Exception encountered when guessing air gap path for docker
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- null
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Exception encountered when guessing air gap path for gradle
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- null
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Exception encountered when guessing air gap path for nuget
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- null
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Exception encountered when guessing air gap path for project-inspector
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- null
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- ----------------------------------
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Docker tool will not be run.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- ----------------------------------
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Bazel tool will not be run.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- ----------------------------------
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Will include the Detectors tool.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Starting detector file system traversal.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Searching for detectors.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- filteredSubDirectories: [/Users/chakrava/go/src/scan_projects/NodeGoat/README.md]
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Evaluating detectors. This may take a while.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Determining applicable detectors on the directory: /Users/chakrava/go/src/scan_projects/NodeGoat
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Attempting GitCliDetectable
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Running executable >/usr/local/bin/git --version
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main-Executable_Stream_Thread] DEBUG: --- git version 2.39.2
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Process return code: 0
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Running executable >/usr/local/bin/git config --get remote.origin.url
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Process return code: 0
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Running executable >/usr/local/bin/git rev-parse --abbrev-ref HEAD
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main-Executable_Stream_Thread] DEBUG: --- main
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Process return code: 0
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Running executable >/usr/local/bin/git rev-parse HEAD
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main-Executable_Stream_Thread] DEBUG: --- e3d5a35cff5a7a5abacfd9ee354ae4837142b139
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Process return code: 0
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Detector Type GIT Entry Point Git applied and was attempted
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Detector results ("true" = succeeded): [Git: true]
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Found (1) applicable detectors in: /Users/chakrava/go/src/scan_projects/NodeGoat
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Finished detectors.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- ======================================================================================================
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Detector Report
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- ======================================================================================================
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 	/Users/chakrava/go/src/scan_projects/NodeGoat (depth 0)
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 		Git: SUCCESS
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 			Found file: /Users/chakrava/go/src/scan_projects/NodeGoat/.git
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 			Found executable: /usr/local/bin/git
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- ----------------------------------
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Publishing file events.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- A valid preferred detector type was not provided, deciding project name automatically.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Exactly one unique detector was found. Using GIT found at depth 0 as project info.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Finished evaluating detectors for project info.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Finished running detectors.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- ======================================================================================================
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Search results
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- ======================================================================================================
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- /Users/chakrava/go/src/scan_projects/NodeGoat
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- 	FOUND: GIT
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- ======================================================================================================
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Detectors actions finished.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- ----------------------------------
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Completed code location tools.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Determining project info.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Using the first ordered tool with project info: DETECTOR
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Project name: sig-rnd-io-testuser/NodeGoat
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Project version: main
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- BDIO Generated: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/bdio/blackduck_artifact/scan.bdio
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- ----------------------------------
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Signature Scanner tool will not be run.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- ----------------------------------
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Vulnerability Impact Analysis tool will not be run.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- ----------------------------------
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- IaC Scanner tool will not be run.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Creating status file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/status/status.json
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Detect shutdown begin.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Finishing diagnostic mode.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Finishing reports.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Finishing logging.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Finishing executable capture.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Finishing file capture.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Creating diagnostics zip.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Diagnostics zip location: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/detect-run-2024-02-23-07-36-45-922.zip
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: executables/EXE-2-STD.xout
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: executables/EXE-3-STD.xout
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: executables/EXE-MAP.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: executables/EXE-1-ERR.xout
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: executables/EXE-0-ERR.xout
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: executables/EXE-1-STD.xout
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: executables/EXE-0-STD.xout
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: executables/EXE-2-ERR.xout
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: executables/EXE-3-ERR.xout
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: status/status.json
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: logs/all.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: logs/debug.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: logs/info.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: logs/sysout.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: reports/search_report.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: reports/detector_report.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: reports/dependency_counts_report.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: reports/search_detailed_report.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: reports/detect_configuration.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: reports/code_location_report.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Adding file to zip: reports/detector_profile_report.txt
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Diagnostics file created at: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/detect-run-2024-02-23-07-36-45-922.zip
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Diagnostic mode has completed.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Skipping cleanup, it is disabled.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Detect shutdown completed.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- All Detect actions completed.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- === Additional  Information ===
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- ====== Detect Operations ======
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- Execute Detectors: SUCCESS
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- SubProject Aggregate: SUCCESS
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- ===============================
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] DEBUG: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- ======== Detect Status ========
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- GIT: SUCCESS
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Overall Status: SUCCESS - Detect exited successfully.
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- ===============================
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- 
+2024-02-23 13:06:46.0000 IST [Blackduck Execution] [main] INFO: --- Detect duration: 00h 00m 01s 064ms
+2024-02-23 13:06:47.0376 IST [Blackduck Execution] INFO: Provided value for resource 'blackduck.completed'
+2024-02-23 13:06:47.0376 IST [Blackduck Execution] DEBUG: Provided value 'true' for resource 'blackduck.completed'
+2024-02-23 13:06:47.0378 IST [Blackduck Execution] INFO: Provided value for resource 'polaris.artifacts.blackduck.path'
+2024-02-23 13:06:47.0378 IST [Blackduck Execution] DEBUG: Provided value '/Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/bdio/blackduck_artifact/scan.bdio' for resource 'polaris.artifacts.blackduck.path'
+2024-02-23 13:06:47.0389 IST [Blackduck Execution] INFO: Adapter finished
+2024-02-23 13:06:47.4620 IST [Polaris Artifacts Uploader] INFO: uploading artifact for "sca" assessment with id "43cec1b9-34de-4976-828e-a278403c6eb8"
+2024-02-23 13:06:51.3310 IST [Polaris Artifacts Uploader] INFO: successfully uploaded artifact "/Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/bdio/blackduck_artifact/scan.bdio"
+2024-02-23 13:06:51.8311 IST [Polaris Artifacts Uploader] INFO: successfully resumed "sca" assessment with id "43cec1b9-34de-4976-828e-a278403c6eb8"
+2024-02-23 13:06:51.8447 IST [Polaris Artifacts Uploader] INFO: Provided value for resource 'polaris.artifacts.blackduck.uploadSuccessful'
+2024-02-23 13:06:51.8447 IST [Polaris Artifacts Uploader] DEBUG: Provided value 'true' for resource 'polaris.artifacts.blackduck.uploadSuccessful'
+2024-02-23 13:06:51.8457 IST [Polaris Artifacts Uploader] INFO: Adapter finished
+2024-02-23 13:06:52.5041 IST [Polaris Waiter] INFO: Waiting for test with assessment type "sca" and id "43cec1b9-34de-4976-828e-a278403c6eb8"
+2024-02-23 13:06:53.5373 IST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "sca" and id "43cec1b9-34de-4976-828e-a278403c6eb8" is "Queuing"
+2024-02-23 13:08:05.9340 IST [Polaris Waiter] INFO: Polling Test Manager: state of test with assessment type "sca" and id "43cec1b9-34de-4976-828e-a278403c6eb8" is "Scanning & Publishing"
+2024-02-23 13:08:16.2326 IST [Polaris Waiter] INFO: test with assessment type "sca" and id "43cec1b9-34de-4976-828e-a278403c6eb8" completed successfully
+2024-02-23 13:08:16.2440 IST [Polaris Waiter] INFO: Provided value for resource 'polaris.test.sca.completed'
+2024-02-23 13:08:16.2440 IST [Polaris Waiter] DEBUG: Provided value 'true' for resource 'polaris.test.SCA.completed'
+2024-02-23 13:08:16.2449 IST [Polaris Waiter] INFO: Adapter finished
+2024-02-23 13:08:16.6617 IST [Polaris Policy Checker] INFO: Checking for policy violations for "SCA" assessment...
+2024-02-23 13:08:17.6524 IST [Polaris Policy Checker] INFO: no policies were violated to break the build
+2024-02-23 13:08:17.6641 IST [Polaris Policy Checker] INFO: Adapter finished
+2024-02-23 13:08:18.0587 IST [Polaris Issues Fetcher] INFO: Fetching issues for "SCA" assessment
+2024-02-23 13:08:19.1075 IST [Polaris Issues Fetcher] INFO: Successfully fetched issues for assessment type "SCA" with id "43cec1b9-34de-4976-828e-a278403c6eb8"
+ {
+ "critical": 0,
+ "high": 0,
+ "informational": 0,
+ "low": 0,
+ "medium": 0
+}
+2024-02-23 13:08:19.1203 IST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SCA.issues.critical'
+2024-02-23 13:08:19.1204 IST [Polaris Issues Fetcher] DEBUG: Provided value '0' for resource 'polaris.test.SCA.issues.critical'
+2024-02-23 13:08:19.1206 IST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SCA.issues.low'
+2024-02-23 13:08:19.1206 IST [Polaris Issues Fetcher] DEBUG: Provided value '0' for resource 'polaris.test.SCA.issues.low'
+2024-02-23 13:08:19.1208 IST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SCA.issues.medium'
+2024-02-23 13:08:19.1208 IST [Polaris Issues Fetcher] DEBUG: Provided value '0' for resource 'polaris.test.SCA.issues.medium'
+2024-02-23 13:08:19.1211 IST [Polaris Issues Fetcher] INFO: Provided value for resource 'polaris.test.SCA.issues.high'
+2024-02-23 13:08:19.1211 IST [Polaris Issues Fetcher] DEBUG: Provided value '0' for resource 'polaris.test.SCA.issues.high'
+2024-02-23 13:08:19.1221 IST [Polaris Issues Fetcher] INFO: Adapter finished

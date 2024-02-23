@@ -1,0 +1,2434 @@
+{
+  "schema": {
+    "azure.api.url": {
+      "description": "API URL for azure",
+      "type": "string"
+    },
+    "azure.organization.name": {
+      "description": "Name of the azure organization",
+      "type": "string"
+    },
+    "azure.project.name": {
+      "description": "Name of the azure project",
+      "type": "string"
+    },
+    "azure.repository.branch.name": {
+      "description": "Branch name for the azure repository",
+      "type": "string"
+    },
+    "azure.repository.branch.parent": {
+      "description": "Target branch name for the azure repository",
+      "type": "string"
+    },
+    "azure.repository.name": {
+      "description": "Name of the azure repository",
+      "type": "string"
+    },
+    "azure.repository.pull.number": {
+      "description": "The Azure pull request number of the current run",
+      "type": "int"
+    },
+    "azure.user.token": {
+      "description": "Access token for azure API authentication",
+      "type": "string",
+      "isSensitive": true
+    },
+    "bitbucket.api.token": {
+      "description": "The API Token for requesting Bitbucket server",
+      "type": "string",
+      "isSensitive": true
+    },
+    "bitbucket.api.url": {
+      "description": "The URL of the Bitbucket server",
+      "type": "string"
+    },
+    "bitbucket.project.key": {
+      "description": "The key of the project",
+      "type": "string"
+    },
+    "bitbucket.project.repository.name": {
+      "description": "Name of the Bitbucket repository",
+      "type": "string"
+    },
+    "bitbucket.project.repository.pull.number": {
+      "description": "The GitHub pull request number of the current run",
+      "type": "int"
+    },
+    "blackduck.automation.fixpr": {
+      "description": "Flag to enable/disable the automatic fix PRs creations",
+      "type": "bool"
+    },
+    "blackduck.automation.prcomment": {
+      "description": "Flag to enable/disable the automatic provide pull request comments",
+      "type": "bool"
+    },
+    "blackduck.completed": {
+      "description": "Flag indicating whether the blackduck execution happened successfully or not",
+      "type": "bool"
+    },
+    "blackduck.download.url": {
+      "description": "User supplied url to download Black Duck Detect jar from",
+      "type": "string"
+    },
+    "blackduck.execution.path": {
+      "description": "Blackduck detect jar file path",
+      "type": "string"
+    },
+    "blackduck.fixpr.createSinglePR": {
+      "description": "Flag to create a single pull request for all the issues",
+      "type": "bool"
+    },
+    "blackduck.fixpr.enabled": {
+      "description": "Flag to enable/disable the fix PRs creations",
+      "type": "bool"
+    },
+    "blackduck.fixpr.filter.severities": {
+      "description": "Filter the vulnerabilities by given severities",
+      "type": "[]string"
+    },
+    "blackduck.fixpr.maxCount": {
+      "description": "The maximum number of issues to create the pull request",
+      "type": "int"
+    },
+    "blackduck.fixpr.useUpgradeGuidance": {
+      "description": "Configure which upgrade guidance to use",
+      "type": "[]string"
+    },
+    "blackduck.id": {
+      "description": "tool id of blackduck tool used",
+      "type": "string"
+    },
+    "blackduck.install.directory": {
+      "description": "User supplied install directory for Blackduck",
+      "type": "string"
+    },
+    "blackduck.issues": {
+      "description": "The vulnerability issues to create the fix PR",
+      "type": "[]BDIssue"
+    },
+    "blackduck.project.id": {
+      "description": "Blackduck hub project id",
+      "type": "string"
+    },
+    "blackduck.project.version.id": {
+      "description": "Blackduck hub project version id",
+      "type": "string"
+    },
+    "blackduck.reports.sarif.create": {
+      "description": "Flag to denote whether Blackduck SARIF report creation should be enabled in the run",
+      "type": "bool"
+    },
+    "blackduck.reports.sarif.file.path": {
+      "description": "File path where Blackduck SARIF report should be created",
+      "type": "string"
+    },
+    "blackduck.reports.sarif.groupSCAIssues": {
+      "description": "Flag to denote whether to group SCA issues by component-version pair in Blackduck SARIF report, defaults to true",
+      "type": "bool"
+    },
+    "blackduck.reports.sarif.issues": {
+      "description": "The Blackduck SARIF issue input data",
+      "type": "[]SARIFIssue"
+    },
+    "blackduck.reports.sarif.severities": {
+      "description": "The issue severities to include in the Blackduck SARIF report",
+      "type": "[]string"
+    },
+    "blackduck.results.path": {
+      "description": "Blackduck results output directory path",
+      "type": "string"
+    },
+    "blackduck.scan.failure.severities": {
+      "description": "Blackduck on fail severities",
+      "type": "[]string"
+    },
+    "blackduck.scan.full": {
+      "description": "If true, intelligent scan. Else if false, rapid scan. Else default based on current situation",
+      "type": "bool"
+    },
+    "blackduck.scanCli.install.directory": {
+      "description": "Detect signature scan cli install directory",
+      "type": "string"
+    },
+    "blackduck.token": {
+      "description": "Token for authenticating with blackduck service",
+      "type": "string",
+      "isSensitive": true
+    },
+    "blackduck.url": {
+      "description": "URL of Blackduck Hub server",
+      "type": "string"
+    },
+    "blackduck.version": {
+      "description": "Tool version of Blackduck to be used.",
+      "type": "string"
+    },
+    "bridge.break": {
+      "description": "Resource that will be used to break the build(non-zero exit code from Synopsys Bridge)",
+      "type": "bool"
+    },
+    "bridge.diagnostics": {
+      "description": "Set diagnostics mode",
+      "type": "bool"
+    },
+    "bridge.log.debug": {
+      "description": "Set the logging level to DEBUG.",
+      "type": "bool"
+    },
+    "bridge.log.jsonLog": {
+      "description": "Set the logs to json structure log.",
+      "type": "bool"
+    },
+    "bridge.log.newLog": {
+      "description": "Set the logs to use new logger",
+      "type": "bool"
+    },
+    "commenter.issues": {
+      "description": "The issues from other adapters that is consumed by SCM Commenter adapters to create review comments.",
+      "type": "[]CommenterIssue"
+    },
+    "coverity.automation.prcomment": {
+      "description": "Flag to enable/disable the automatic provide pull request comments",
+      "type": "bool"
+    },
+    "coverity.build.command": {
+      "description": "Build command to be passed to Coverity",
+      "type": "[]string"
+    },
+    "coverity.completed": {
+      "description": "flag indicating whether the coverity capture happened successfully or not",
+      "type": "bool"
+    },
+    "coverity.connect.policy.view": {
+      "description": "Coverity connect view to validate the issues",
+      "type": "string"
+    },
+    "coverity.connect.project.name": {
+      "description": "Coverity connect project name",
+      "type": "string"
+    },
+    "coverity.connect.results.comparison.path": {
+      "description": "Location of comparison report",
+      "type": "string"
+    },
+    "coverity.connect.stream.name": {
+      "description": "Name of the stream",
+      "type": "string"
+    },
+    "coverity.connect.url": {
+      "description": "The base url to use in API calls to the Coverity Connect Server.",
+      "type": "string"
+    },
+    "coverity.connect.user.name": {
+      "description": "Coverity connect adapter username",
+      "type": "string"
+    },
+    "coverity.connect.user.password": {
+      "description": "Coverity connect adapter password",
+      "type": "string",
+      "isSensitive": true
+    },
+    "coverity.execution.path": {
+      "description": "If the correct version of coverity is already installed, set the value of this resource to the path of the coverity thin client.",
+      "type": "string"
+    },
+    "coverity.id": {
+      "description": "tool id of coverity tool used",
+      "type": "string"
+    },
+    "coverity.idir.input": {
+      "description": "The value to be passed for Coverity CLI --dir option",
+      "type": "string"
+    },
+    "coverity.idir.output": {
+      "description": "The value that was passed for Coverity CLI --dir option",
+      "type": "string"
+    },
+    "coverity.install.directory": {
+      "description": "If given, this is where we will look to see if coverity is installed.",
+      "type": "string"
+    },
+    "coverity.local": {
+      "description": "This flag will decide the coverity analysis mode to run",
+      "type": "bool"
+    },
+    "coverity.version": {
+      "description": "Tool version of Coverity to be used.",
+      "type": "string"
+    },
+    "downloads.blackduck.path": {
+      "description": "Blackduck detect jar archive path",
+      "type": "string"
+    },
+    "downloads.blackduck.url": {
+      "description": "Blackduck detect jar archive download URL",
+      "type": "string"
+    },
+    "downloads.coverity.headers": {
+      "description": "Headers that will be sent with Coverity tool download request",
+      "type": "[]headersType"
+    },
+    "downloads.coverity.path": {
+      "description": "Coverity related artifacts downloaded path",
+      "type": "string"
+    },
+    "downloads.coverity.url": {
+      "description": "If we need to download the coverity thin client, set the value of this resource to the Download URL for the payload",
+      "type": "string"
+    },
+    "downloads.coveritylicense.headers": {
+      "description": "Headers that will be sent with Coverity License download request",
+      "type": "[]headersType"
+    },
+    "downloads.coveritylicense.path": {
+      "description": "Coverity license download path",
+      "type": "string"
+    },
+    "downloads.coveritylicense.url": {
+      "description": "Coverity license download URL",
+      "type": "string"
+    },
+    "downloads.detectScanCli.path": {
+      "description": "Detect signature scan cli archive path",
+      "type": "string"
+    },
+    "environment.scan.pull": {
+      "description": "A boolean represents if the pipeline is triggered by a MR/PR event",
+      "type": "bool"
+    },
+    "fixpr.issues": {
+      "description": "Issues that need to be created as PRs",
+      "type": "[]FixPRIssue"
+    },
+    "github.api.url": {
+      "description": "API URL for Github",
+      "type": "string"
+    },
+    "github.host.url": {
+      "description": "Host URL for Github",
+      "type": "string"
+    },
+    "github.repository.branch.name": {
+      "description": "Branch name for the Github repository",
+      "type": "string"
+    },
+    "github.repository.branch.parent": {
+      "description": "Parent branch of the branch provided in the Github repository",
+      "type": "string"
+    },
+    "github.repository.name": {
+      "description": "Name of the Github repository",
+      "type": "string"
+    },
+    "github.repository.owner.name": {
+      "description": "Owner name for the Github repository",
+      "type": "string"
+    },
+    "github.repository.pull.number": {
+      "description": "The GitHub pull request number of the current run",
+      "type": "int"
+    },
+    "github.user.token": {
+      "description": "Access token for Github API authentication",
+      "type": "string",
+      "isSensitive": true
+    },
+    "gitlab.api.url": {
+      "description": "API URL for Gitlab",
+      "type": "string"
+    },
+    "gitlab.repository.branch.name": {
+      "description": "Branch name for the GitLab repository",
+      "type": "string"
+    },
+    "gitlab.repository.name": {
+      "description": "Name of the Gitlab repository",
+      "type": "string"
+    },
+    "gitlab.repository.pull.number": {
+      "description": "The Gitlab pull request number of the current run",
+      "type": "int"
+    },
+    "gitlab.user.token": {
+      "description": "Access token for Gitlab API authentication",
+      "type": "string",
+      "isSensitive": true
+    },
+    "network.airGap": {
+      "description": "Flag to indicate whether the current run should be run in air-gapped mode. Defaults to false",
+      "type": "bool"
+    },
+    "polaris.accessToken": {
+      "description": "Access token required for Polaris server authentication",
+      "type": "string",
+      "isSensitive": true
+    },
+    "polaris.application.name": {
+      "description": "Application name created in Polaris server",
+      "type": "string"
+    },
+    "polaris.artifacts.blackduck.path": {
+      "description": "path of the blackduck artifacts to be uploaded for analysis",
+      "type": "string"
+    },
+    "polaris.artifacts.blackduck.uploadSuccessful": {
+      "description": "Flag specifying the blackduck artifact was uploaded successfully",
+      "type": "bool"
+    },
+    "polaris.artifacts.coverity.path": {
+      "description": "path of the coverity artifacts to be uploaded for analysis",
+      "type": "string"
+    },
+    "polaris.artifacts.coverity.uploadSuccessful": {
+      "description": "Flag specifying the coverity artifact was uploaded successfully",
+      "type": "bool"
+    },
+    "polaris.assessment.types": {
+      "description": "Assessment types for which user wants to run tests for.",
+      "type": "[]string"
+    },
+    "polaris.branch.id": {
+      "description": "Branch id of the project branch in Polaris server",
+      "type": "string"
+    },
+    "polaris.branch.name": {
+      "description": "Branch name for the project created in Polaris server",
+      "type": "string"
+    },
+    "polaris.branch.parent.id": {
+      "description": "Branch id of the project's parent branch in Polaris server",
+      "type": "string"
+    },
+    "polaris.branch.parent.name": {
+      "description": "Parent Branch name for the project created in Polaris server",
+      "type": "string"
+    },
+    "polaris.onboarding": {
+      "description": "If true, creates project and branch if they don't exist. Defaults to true",
+      "type": "bool"
+    },
+    "polaris.portfolioid": {
+      "description": "Polaris Portfolio Id",
+      "type": "string"
+    },
+    "polaris.prComment.enabled": {
+      "description": "Flag to denote whether pr comments feature is enabled or not",
+      "type": "bool"
+    },
+    "polaris.prComment.severities": {
+      "description": "List of severities for which the PR Comments should be created",
+      "type": "[]string"
+    },
+    "polaris.project.id": {
+      "description": "Project id created in Polaris server for the given project",
+      "type": "string"
+    },
+    "polaris.project.name": {
+      "description": "Project name created in Polaris server",
+      "type": "string"
+    },
+    "polaris.reports.sarif.create": {
+      "description": "Flag to enable Polaris SARIF report creation",
+      "type": "bool"
+    },
+    "polaris.reports.sarif.file.path": {
+      "description": "File path where Polaris SARIF report will be created",
+      "type": "string"
+    },
+    "polaris.reports.sarif.groupSCAIssues": {
+      "description": "Flag to denote whether to group SCA issues by vulnerabilities of a component-version pair in Polaris SARIF report, defaults to true",
+      "type": "bool"
+    },
+    "polaris.reports.sarif.issue.types": {
+      "description": "The issue types to include in the Polaris SARIF report",
+      "type": "[]string"
+    },
+    "polaris.reports.sarif.issues": {
+      "description": "The Polaris SARIF issue input data",
+      "type": "[]SARIFIssue"
+    },
+    "polaris.reports.sarif.severities": {
+      "description": "The issue severities to include in the Polaris SARIF report, defaults to all severities",
+      "type": "[]string"
+    },
+    "polaris.serverUrl": {
+      "description": "Server url of Polaris service",
+      "type": "string"
+    },
+    "polaris.test.sast.completed": {
+      "description": "flag indicating the completion of SAST assessment",
+      "type": "bool"
+    },
+    "polaris.test.sast.id": {
+      "description": "Test id for SAST assessment type",
+      "type": "string"
+    },
+    "polaris.test.sast.issues.critical": {
+      "description": "SAST issues count for critical severity",
+      "type": "int"
+    },
+    "polaris.test.sast.issues.high": {
+      "description": "SAST issues count for high severity",
+      "type": "int"
+    },
+    "polaris.test.sast.issues.low": {
+      "description": "SAST issues count for low severity",
+      "type": "int"
+    },
+    "polaris.test.sast.issues.medium": {
+      "description": "SAST issues count for medium severity",
+      "type": "int"
+    },
+    "polaris.test.sast.issues.minimal": {
+      "description": "SAST issues count for minimal severity",
+      "type": "int"
+    },
+    "polaris.test.sast.pollTime": {
+      "description": "poll time to wait for SAST assessment type",
+      "type": "int"
+    },
+    "polaris.test.sast.streamId": {
+      "description": "Id of the coverity stream for caching",
+      "type": "string"
+    },
+    "polaris.test.sca.completed": {
+      "description": "flag indicating the completion of SCA assessment",
+      "type": "bool"
+    },
+    "polaris.test.sca.id": {
+      "description": "Test id for SCA assessment type",
+      "type": "string"
+    },
+    "polaris.test.sca.issues.critical": {
+      "description": "SCA issues count for critical severity",
+      "type": "int"
+    },
+    "polaris.test.sca.issues.high": {
+      "description": "SCA issues count for high severity",
+      "type": "int"
+    },
+    "polaris.test.sca.issues.low": {
+      "description": "SCA issues count for low severity",
+      "type": "int"
+    },
+    "polaris.test.sca.issues.medium": {
+      "description": "SCA issues count for medium severity",
+      "type": "int"
+    },
+    "polaris.test.sca.issues.minimal": {
+      "description": "SCA issues count for minimal severity",
+      "type": "int"
+    },
+    "polaris.test.sca.pollTime": {
+      "description": "poll time to wait for SCA assessment type",
+      "type": "int"
+    },
+    "polaris.test.sca.type": {
+      "description": "The scan mode type for SCA assessment type",
+      "type": "string"
+    },
+    "polaris.triage": {
+      "description": "Controls the triage behavior of the test",
+      "type": "string"
+    },
+    "project.directory": {
+      "description": "Project source code directory",
+      "type": "string"
+    },
+    "scm.branch.name": {
+      "description": "Source branch name of the repository, irrespective of the SCM type",
+      "type": "string"
+    },
+    "scm.branch.parent": {
+      "description": "Target branch name of the repository, irrespective of the SCM type",
+      "type": "string"
+    },
+    "srm.analysis.*.artifacts.storageId": {
+      "description": "Storage ID of the artifacts",
+      "type": "string"
+    },
+    "srm.analysis.branchSet": {
+      "description": "Flag indicating the status of whether a target branch is set for a SRM analysis",
+      "type": "bool"
+    },
+    "srm.analysis.break": {
+      "description": "Flag indicates whether to break the build if analysis triggered a policy violation",
+      "type": "bool"
+    },
+    "srm.analysis.completed": {
+      "description": "Flag indicating whether the analysis has completed and issues can be fetched",
+      "type": "bool"
+    },
+    "srm.analysis.issues": {
+      "description": "Count of issues for each severity",
+      "type": "AnalysisIssues"
+    },
+    "srm.analysis.job.id": {
+      "description": "The ID of the analysis job.",
+      "type": "string"
+    },
+    "srm.analysis.prepId": {
+      "description": "Prep ID for SRM analysis",
+      "type": "string"
+    },
+    "srm.analysis.sast.artifacts.path": {
+      "description": "Path to archive to upload to SRM for SAST analysis.",
+      "type": "string"
+    },
+    "srm.analysis.sast.completed": {
+      "description": "Flag indicating whether coverity capture is completed for SRM Workflow.",
+      "type": "bool"
+    },
+    "srm.analysis.sca.artifacts.path": {
+      "description": "Path to archive to upload to SRM for SCA analysis.",
+      "type": "string"
+    },
+    "srm.analysis.sca.completed": {
+      "description": "Flag indicating whether SCA analysis has completed and issues can be fetched.",
+      "type": "bool"
+    },
+    "srm.analysis.source.path": {
+      "description": "File path to the source code",
+      "type": "string"
+    },
+    "srm.analysis.source.preserveSymLinks": {
+      "description": "Flag indicating whether to preserve symlinks in the source zip",
+      "type": "bool"
+    },
+    "srm.analysis.source.upload": {
+      "description": "Flag to indicate if user wants to upload the source to SRM instance. Defaults to true.",
+      "type": "bool"
+    },
+    "srm.analysis.sourceInputCreated": {
+      "description": "Whether the source inputs have been created or not",
+      "type": "bool"
+    },
+    "srm.analysis.toolInputsCreated": {
+      "description": "Flag indicating the status of tool input creation for SRM analysis",
+      "type": "bool"
+    },
+    "srm.apiKey": {
+      "description": "API key for the SRM instance",
+      "type": "string",
+      "isSensitive": true
+    },
+    "srm.assessment.types": {
+      "description": "Assessment types for which user wants to run tests for",
+      "type": "[]string"
+    },
+    "srm.branch.name": {
+      "description": "The name of branch in a project in SRM server",
+      "type": "string"
+    },
+    "srm.branch.parent": {
+      "description": "The name of parent branch of a branch in a project in SRM server",
+      "type": "string"
+    },
+    "srm.initialized": {
+      "description": "whether the srm workflow has been initialized successfully",
+      "type": "bool"
+    },
+    "srm.project.id": {
+      "description": "The ID of the Project in SRM",
+      "type": "int"
+    },
+    "srm.project.name": {
+      "description": "The project name as it exists in SRM",
+      "type": "string"
+    },
+    "srm.url": {
+      "description": "SRM instance url",
+      "type": "string"
+    },
+    "tool.install.directory": {
+      "description": "install directory which can also be specified by the user. If not specified bridge will set it to bridge default directory",
+      "type": "string"
+    }
+  },
+  "types": {
+    "analysisissues": {
+      "critical": {
+        "description": "Count of High severity issues for the analysis.",
+        "type": "int",
+        "isSensitive": false
+      },
+      "high": {
+        "description": "Count of High severity issues for the analysis.",
+        "type": "int",
+        "isSensitive": false
+      },
+      "info": {
+        "description": "Count of Info severity issues for the analysis.",
+        "type": "int",
+        "isSensitive": false
+      },
+      "low": {
+        "description": "Count of Low severity issues for the analysis.",
+        "type": "int",
+        "isSensitive": false
+      },
+      "medium": {
+        "description": "Count of Medium severity issues for the analysis.",
+        "type": "int",
+        "isSensitive": false
+      },
+      "unspecified": {
+        "description": "Count of Unspecified severity issues for the analysis.",
+        "type": "int",
+        "isSensitive": false
+      }
+    },
+    "bdissue": {
+      "component": {
+        "description": "Component name of the component",
+        "type": "string",
+        "isSensitive": false
+      },
+      "componentVersionOriginUrl": {
+        "description": "Blackduck hub component version origin url",
+        "type": "string",
+        "isSensitive": false
+      },
+      "longTerm": {
+        "description": "LongTerm version of the component to upgrade to as the long term fix",
+        "type": "string",
+        "isSensitive": false
+      },
+      "manager": {
+        "description": "The package manager that is associated with the component in the issue",
+        "type": "string",
+        "isSensitive": false
+      },
+      "originId": {
+        "description": "The ComponentVersionOriginId of the component from Blackduck",
+        "type": "string",
+        "isSensitive": false
+      },
+      "shortTerm": {
+        "description": "ShortTerm version of the component to upgrade to as a short term fix",
+        "type": "string",
+        "isSensitive": false
+      },
+      "version": {
+        "description": "Current version of the component",
+        "type": "string",
+        "isSensitive": false
+      },
+      "vulnerabilities": {
+        "description": "The vulnerability details",
+        "type": "[]BDVuln",
+        "isSensitive": false
+      }
+    },
+    "bdvuln": {
+      "description": {
+        "description": "Description of the vulnerability",
+        "type": "string",
+        "isSensitive": false
+      },
+      "name": {
+        "description": "Name of the vulnerability",
+        "type": "string",
+        "isSensitive": false
+      },
+      "severity": {
+        "description": "The severity of the vulnerability",
+        "type": "string",
+        "isSensitive": false
+      }
+    },
+    "commenterissue": {
+      "comment": {
+        "description": "The string comment details",
+        "type": "string",
+        "isSensitive": false
+      },
+      "commentTable": {
+        "description": "The table comment details",
+        "type": "CommentTable",
+        "isSensitive": false
+      },
+      "commentType": {
+        "description": "The comment content type, could be string or table",
+        "type": "string",
+        "isSensitive": false
+      },
+      "file": {
+        "description": "The relative path to the file that necessitates a comment",
+        "type": "string",
+        "isSensitive": false
+      },
+      "from": {
+        "description": "The reporter of the issue",
+        "type": "string",
+        "isSensitive": false
+      },
+      "lineNumber": {
+        "description": "The line of the blob in the pull request diff that the comment applies to",
+        "type": "int",
+        "isSensitive": false
+      },
+      "uid": {
+        "description": "The unique ID of the issue ",
+        "type": "string",
+        "isSensitive": false
+      }
+    },
+    "commenttable": {
+      "description": {
+        "description": "The description about the table",
+        "type": "string",
+        "isSensitive": false
+      },
+      "heads": {
+        "description": "The heads of the table",
+        "type": "[]string",
+        "isSensitive": false
+      },
+      "records": {
+        "description": "The records of the table",
+        "type": "[]Record",
+        "isSensitive": false
+      }
+    },
+    "dependencytree": {
+      "isDirect": {
+        "description": "Flag which indicates whether a dependency tree component is a direct dependency of a transitive component-version pair",
+        "type": "bool",
+        "isSensitive": false
+      },
+      "originID": {
+        "description": "Origin ID of a dependency tree item",
+        "type": "string",
+        "isSensitive": false
+      }
+    },
+    "dependencytrees": {
+      "DependencyTree": {
+        "description": "Dependency tree of a component-version pair",
+        "type": "[]DependencyTree",
+        "isSensitive": false
+      }
+    },
+    "fixprchange": {
+      "colEnd": {
+        "description": "The end col number in the line needs to be updated",
+        "type": "int",
+        "isSensitive": false
+      },
+      "colStart": {
+        "description": "The start col number in the line needs to be updated",
+        "type": "int",
+        "isSensitive": false
+      },
+      "content": {
+        "description": "The original content in the file",
+        "type": "string",
+        "isSensitive": false
+      },
+      "file": {
+        "description": "The file need to be updated",
+        "type": "string",
+        "isSensitive": false
+      },
+      "lineNumber": {
+        "description": "The line number in the File need to be updated",
+        "type": "int",
+        "isSensitive": false
+      },
+      "newContent": {
+        "description": "The new content to update the file",
+        "type": "string",
+        "isSensitive": false
+      }
+    },
+    "fixprissue": {
+      "appendDesc": {
+        "description": "The content need to be appended to the pull request description even the description is truncated",
+        "type": "string",
+        "isSensitive": false
+      },
+      "changes": {
+        "description": "The changes should be made to create the pull request",
+        "type": "[]FixPRChange",
+        "isSensitive": false
+      },
+      "description": {
+        "description": "The description body of the pull request",
+        "type": "string",
+        "isSensitive": false
+      },
+      "from": {
+        "description": "The source of the issues",
+        "type": "string",
+        "isSensitive": false
+      },
+      "recreate": {
+        "description": "Flag to recreate the pull request if it already exists",
+        "type": "bool",
+        "isSensitive": false
+      },
+      "title": {
+        "description": "The unique title for the pull request",
+        "type": "string",
+        "isSensitive": false
+      },
+      "uid": {
+        "description": "The unique id for representing this issue",
+        "type": "string",
+        "isSensitive": false
+      }
+    },
+    "headerstype": {
+      "name": {
+        "description": "Header name to send with download URL request",
+        "type": "string",
+        "isSensitive": false
+      },
+      "value": {
+        "description": "Header value to send with download URL request",
+        "type": "string",
+        "isSensitive": true
+      }
+    },
+    "record": {
+      "columns": {
+        "description": "The columns of the table",
+        "type": "[]string",
+        "isSensitive": false
+      }
+    },
+    "sarifissue": {
+      "sast": {
+        "description": "SAST SARIF issues",
+        "type": "[]SASTIssue",
+        "isSensitive": false
+      },
+      "sca": {
+        "description": "SCA SARIF issues",
+        "type": "[]SCAIssue",
+        "isSensitive": false
+      },
+      "toolName": {
+        "description": "Tool Name for the SARIF report",
+        "type": "string",
+        "isSensitive": false
+      },
+      "toolVersion": {
+        "description": "Tool Version for the SARIF report",
+        "type": "string",
+        "isSensitive": false
+      }
+    },
+    "sariflocation": {
+      "filePath": {
+        "description": "Associated file path in the source code for a component-version pair issue",
+        "type": "string",
+        "isSensitive": false
+      },
+      "startLine": {
+        "description": "Start line of a component-version pair issue in the associated file",
+        "type": "int",
+        "isSensitive": false
+      }
+    },
+    "sastevent": {
+      "description": {
+        "description": "Description of the SAST event",
+        "type": "string",
+        "isSensitive": false
+      },
+      "location": {
+        "description": "Location of the SAST event",
+        "type": "SARIFLocation",
+        "isSensitive": false
+      }
+    },
+    "sastissue": {
+      "cwe": {
+        "description": "CWE associated with the SAST issue",
+        "type": "string",
+        "isSensitive": false
+      },
+      "description": {
+        "description": "Description of the SAST issue",
+        "type": "string",
+        "isSensitive": false
+      },
+      "events": {
+        "description": "List of SAST events",
+        "type": "[]SASTEvent",
+        "isSensitive": false
+      },
+      "issueTypeURL": {
+        "description": "Issue type URL of the SAST issue",
+        "type": "string",
+        "isSensitive": false
+      },
+      "issueURL": {
+        "description": "Issue URL of the SAST issue",
+        "type": "string",
+        "isSensitive": false
+      },
+      "key": {
+        "description": "Key of the SAST issue",
+        "type": "string",
+        "isSensitive": false
+      },
+      "localEffect": {
+        "description": "Local effect of the SAST issue",
+        "type": "string",
+        "isSensitive": false
+      },
+      "location": {
+        "description": "SARIF location of the SAST issue",
+        "type": "SARIFLocation",
+        "isSensitive": false
+      },
+      "name": {
+        "description": "Name of the SAST issue",
+        "type": "string",
+        "isSensitive": false
+      },
+      "remediation": {
+        "description": "Remediation for the SAST issue",
+        "type": "string",
+        "isSensitive": false
+      },
+      "severity": {
+        "description": "Severity of the SAST issue",
+        "type": "string",
+        "isSensitive": false
+      },
+      "shortDescription": {
+        "description": "Short description of the SAST issue",
+        "type": "string",
+        "isSensitive": false
+      }
+    },
+    "scaissue": {
+      "componentURL": {
+        "description": "Related URL of the component-version pair page in the Blackduck Server",
+        "type": "string",
+        "isSensitive": false
+      },
+      "dependencyTrees": {
+        "description": "Dependency trees of a component-version pair",
+        "type": "[]DependencyTrees",
+        "isSensitive": false
+      },
+      "directDependencyLongTerm": {
+        "description": "Long term upgrade guidance of direct dependency if the component-version pair is transitive dependency",
+        "type": "string",
+        "isSensitive": false
+      },
+      "directDependencyOriginId": {
+        "description": "Direct dependency Origin ID of a transitive dependency",
+        "type": "string",
+        "isSensitive": false
+      },
+      "directDependencyShortTerm": {
+        "description": "Short term upgrade guidance of direct dependency if the component-version pair is transitive dependency",
+        "type": "string",
+        "isSensitive": false
+      },
+      "isDirect": {
+        "description": "Flag which indicates whether a component-version pair is a direct Dependency",
+        "type": "bool",
+        "isSensitive": false
+      },
+      "locations": {
+        "description": "Associated locations details of a component-version pair",
+        "type": "[]SARIFLocation",
+        "isSensitive": false
+      },
+      "longTerm": {
+        "description": "Long term upgrade guidance of a component-version pair",
+        "type": "string",
+        "isSensitive": false
+      },
+      "maxSeverity": {
+        "description": "Maximum Severity of all Vulnerabilities in a component-version pair",
+        "type": "string",
+        "isSensitive": false
+      },
+      "name": {
+        "description": "Name of the Component",
+        "type": "string",
+        "isSensitive": false
+      },
+      "originID": {
+        "description": "Origin ID of a component-version pair",
+        "type": "string",
+        "isSensitive": false
+      },
+      "shortTerm": {
+        "description": "Short term upgrade guidance of a component-version pair",
+        "type": "string",
+        "isSensitive": false
+      },
+      "version": {
+        "description": "Version of the Component",
+        "type": "string",
+        "isSensitive": false
+      },
+      "vulnerabilities": {
+        "description": "Vulnerabilities details of a component-version pair",
+        "type": "[]Vulnerability",
+        "isSensitive": false
+      }
+    },
+    "vulnerability": {
+      "associatedCVE": {
+        "description": "Associated CVE of the Vulnerability",
+        "type": "string",
+        "isSensitive": false
+      },
+      "cwes": {
+        "description": "CWE Id of the Vulnerability",
+        "type": "[]string",
+        "isSensitive": false
+      },
+      "description": {
+        "description": "Description of the Vulnerability",
+        "type": "string",
+        "isSensitive": false
+      },
+      "name": {
+        "description": "Name of the Vulnerability",
+        "type": "string",
+        "isSensitive": false
+      },
+      "severity": {
+        "description": "Severity of the Vulnerability",
+        "type": "string",
+        "isSensitive": false
+      },
+      "solution": {
+        "description": "Solution of the Vulnerability",
+        "type": "string",
+        "isSensitive": false
+      },
+      "title": {
+        "description": "Title of the of the Vulnerability",
+        "type": "string",
+        "isSensitive": false
+      },
+      "workaround": {
+        "description": "Workaround of the Vulnerability",
+        "type": "string",
+        "isSensitive": false
+      }
+    }
+  },
+  "data": {
+    "blackduck": {
+      "completed": true,
+      "execution": {
+        "path": "/Users/chakrava/.synopsys/bridge/tools/synopsys-detect/9.0.0/synopsys_detect-9.0.0.jar"
+      },
+      "id": "synopsys_detect:9.0.0",
+      "scanCli": {
+        "install": {
+          "directory": "/Users/chakrava/.synopsys/bridge/tools/synopsys-detect-signature-scan/2023.10.0"
+        }
+      }
+    },
+    "bridge": {
+      "diagnostics": true,
+      "log": {
+        "debug": true,
+        "jsonLog": true,
+        "newLog": true
+      }
+    },
+    "environment": {
+      "scan": {
+        "pull": true
+      }
+    },
+    "github": {
+      "repository": {
+        "branch": {
+          "name": "main"
+        },
+        "name": "NodeGoat",
+        "owner": {
+          "name": "sig-rnd-io-testuser"
+        },
+        "pull": {
+          "number": 53
+        }
+      },
+      "user": {
+        "token": "<HIDDEN>"
+      }
+    },
+    "polaris": {
+      "accessToken": "<HIDDEN>",
+      "application": {
+        "name": "sarif_cdev"
+      },
+      "artifacts": {
+        "blackduck": {
+          "path": "/Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/bdio/blackduck_artifact/scan.bdio",
+          "uploadSuccessful": true
+        }
+      },
+      "assessment": {
+        "types": [
+          "sca"
+        ]
+      },
+      "branch": {
+        "id": "cfd0d335-61e8-4262-a3d8-029075bc7878",
+        "name": "main"
+      },
+      "onboarding": true,
+      "portfolioid": "a8389446-9e48-4a1c-87b3-f9b22196824b",
+      "prComment": {
+        "enabled": false,
+        "severities": [
+          "high",
+          "CRITICAL",
+          "medium",
+          "low"
+        ]
+      },
+      "project": {
+        "id": "fe2e2c5c-dc4d-4baa-ba83-1573d6cec7db",
+        "name": "1554_nodegoat"
+      },
+      "reports": {
+        "sarif": {
+          "create": false,
+          "file": {
+            "path": "/Users/chakrava/go/src/scan_projects/NodeGoat-sarif/polaris_sarif_reports/report.sarif_ungrouped_all_severities.json"
+          },
+          "groupSCAIssues": false,
+          "issue": {
+            "types": [
+              "SAST",
+              "SCA"
+            ]
+          },
+          "severities": [
+            "high",
+            "CRITICAL",
+            "medium",
+            "low"
+          ]
+        }
+      },
+      "serverUrl": "https://cdev.altair.synopsys.com/",
+      "test": {
+        "SCA": {
+          "completed": true,
+          "id": "43cec1b9-34de-4976-828e-a278403c6eb8",
+          "issues": {
+            "critical": 0,
+            "high": 0,
+            "low": 0,
+            "medium": 0
+          }
+        }
+      }
+    },
+    "scm": {
+      "branch": {
+        "name": "main"
+      }
+    }
+  },
+  "adapters": [
+    {
+      "name": "Blackduck Hub Controller",
+      "type": "json",
+      "stage": "blackduck",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "blackduck-hub-controller"
+        ],
+        "in": [
+          "blackduck.url",
+          "blackduck.token",
+          "blackduck.install.directory",
+          "blackduck.automation.prcomment",
+          "blackduck.download.url",
+          "network.airGap",
+          "environment.scan.pull",
+          "blackduck.reports.sarif.create",
+          "bridge.log.*"
+        ],
+        "out": [
+          "blackduck.execution.path",
+          "downloads.blackduck.url",
+          "blackduck.completed"
+        ]
+      }
+    },
+    {
+      "name": "Blackduck Results",
+      "type": "json",
+      "stage": "blackduck",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "blackduck-results"
+        ],
+        "in": [
+          "blackduck.url",
+          "blackduck.token",
+          "blackduck.completed",
+          "blackduck.scan.full",
+          "blackduck.results.path",
+          "project.directory",
+          "blackduck.automation.fixpr",
+          "blackduck.fixpr.enabled",
+          "blackduck.fixpr.filter.severities",
+          "blackduck.automation.prcomment",
+          "bridge.log.*"
+        ],
+        "out": [
+          "blackduck.project.id",
+          "blackduck.project.version.id",
+          "blackduck.issues",
+          "commenter.issues"
+        ]
+      }
+    },
+    {
+      "name": "Blackduck Component Locator",
+      "type": "json",
+      "stage": "blackduck",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "blackduck-component-locator"
+        ],
+        "in": [
+          "blackduck.url",
+          "project.directory",
+          "adapter.home",
+          "blackduck.issues",
+          "blackduck.execution.path",
+          "blackduck.fixpr.enabled",
+          "blackduck.fixpr.createSinglePR",
+          "blackduck.fixpr.maxCount",
+          "blackduck.fixpr.useUpgradeGuidance",
+          "blackduck.project.id",
+          "blackduck.automation.fixpr",
+          "blackduck.project.version.id",
+          "bridge.log.*"
+        ],
+        "out": [
+          "fixpr.issues"
+        ]
+      }
+    },
+    {
+      "name": "Blackduck SARIF Issues Fetcher",
+      "type": "json",
+      "stage": "blackduck-reports-sarif",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "blackduck-sarif-issues-fetcher"
+        ],
+        "in": [
+          "blackduck.url",
+          "blackduck.token",
+          "blackduck.completed",
+          "blackduck.results.path",
+          "blackduck.execution.path",
+          "blackduck.scan.full",
+          "blackduck.reports.sarif.create",
+          "blackduck.reports.sarif.severities",
+          "bridge.home",
+          "bridge.log.*"
+        ],
+        "out": [
+          "blackduck.reports.sarif.issues"
+        ]
+      }
+    },
+    {
+      "name": "Blackduck SARIF Generator",
+      "type": "json",
+      "stage": "blackduck-reports-sarif",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "sarif-generator"
+        ],
+        "in": [
+          "adapter.home",
+          "blackduck.reports.sarif.issues",
+          "blackduck.reports.sarif.file.path",
+          "blackduck.reports.sarif.groupSCAIssues",
+          "bridge.log.*"
+        ]
+      }
+    },
+    {
+      "name": "GitHub Commenter",
+      "type": "json",
+      "stage": "GitHubPRComment",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "github-commenter"
+        ],
+        "in": [
+          "github.repository.name",
+          "github.user.token",
+          "github.api.url",
+          "github.host.url",
+          "environment.scan.pull",
+          "github.repository.pull.number",
+          "github.repository.owner.name",
+          "github.repository.branch.name",
+          "github.repository.branch.parent",
+          "commenter.issues",
+          "network.airGap",
+          "bridge.log.*"
+        ]
+      }
+    },
+    {
+      "name": "Gitlab Commenter",
+      "type": "json",
+      "stage": "GitLabPRComment",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "gitlab-commenter"
+        ],
+        "in": [
+          "gitlab.repository.name",
+          "gitlab.user.token",
+          "gitlab.api.url",
+          "environment.scan.pull",
+          "gitlab.repository.pull.number",
+          "commenter.issues",
+          "network.airGap",
+          "bridge.log.*"
+        ]
+      }
+    },
+    {
+      "name": "Azure Commenter",
+      "type": "json",
+      "stage": "AzurePRComment",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "azure-commenter"
+        ],
+        "in": [
+          "azure.user.token",
+          "azure.repository.name",
+          "azure.organization.name",
+          "azure.project.name",
+          "azure.repository.branch.name",
+          "azure.repository.branch.parent",
+          "azure.repository.pull.number",
+          "environment.scan.pull",
+          "commenter.issues",
+          "network.airGap",
+          "bridge.log.*"
+        ]
+      }
+    },
+    {
+      "name": "Bitbucket Commenter",
+      "type": "json",
+      "stage": "BitbucketPRComment",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "bitbucket-commenter"
+        ],
+        "in": [
+          "bitbucket.api.url",
+          "bitbucket.api.token",
+          "bitbucket.project.key",
+          "bitbucket.project.repository.name",
+          "bitbucket.project.repository.pull.number",
+          "commenter.issues",
+          "environment.scan.pull",
+          "bridge.log.*"
+        ]
+      }
+    },
+    {
+      "name": "Coverity Connect Controller",
+      "type": "json",
+      "stage": "connect",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "connect-workflow-controller"
+        ],
+        "in": [
+          "coverity.connect.url",
+          "coverity.connect.user.name",
+          "coverity.connect.user.password",
+          "coverity.install.directory",
+          "coverity.automation.prcomment",
+          "coverity.local",
+          "coverity.version",
+          "bridge.os.type",
+          "bridge.os.arch",
+          "bridge.log.*"
+        ],
+        "out": [
+          "coverity.execution.path",
+          "coverity.completed",
+          "coverity.connect.results.comparison.path",
+          "downloads.coverity.headers",
+          "downloads.coveritylicense.headers",
+          "downloads.*.url"
+        ]
+      }
+    },
+    {
+      "name": "Coverity connect post scan",
+      "type": "json",
+      "stage": "connect",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "coverity-connect-post-scan"
+        ],
+        "in": [
+          "coverity.connect.user.name",
+          "coverity.connect.user.password",
+          "coverity.connect.url",
+          "coverity.connect.policy.view",
+          "coverity.connect.project.name",
+          "coverity.completed",
+          "bridge.log.*"
+        ],
+        "out": [
+          "bridge.break"
+        ]
+      }
+    },
+    {
+      "name": "Coverity Results",
+      "type": "json",
+      "stage": "connect",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "coverity-results"
+        ],
+        "in": [
+          "bridge.log.*",
+          "coverity.automation.prComment",
+          "coverity.connect.results.comparison.path"
+        ],
+        "out": [
+          "commenter.issues"
+        ]
+      }
+    },
+    {
+      "name": "Downloader Adapter",
+      "type": "json",
+      "stage": "downloader",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "downloader-adapter"
+        ],
+        "in": [
+          "downloads.*.url",
+          "bridge.log.*"
+        ],
+        "out": [
+          "downloads.*.path"
+        ]
+      }
+    },
+    {
+      "name": "GitHub Pull Request Handler",
+      "type": "json",
+      "stage": "GitHubFixPR",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "github-pull-request-handler"
+        ],
+        "in": [
+          "github.api.url",
+          "github.host.url",
+          "github.user.token",
+          "github.repository.name",
+          "github.repository.owner.name",
+          "github.repository.branch.name",
+          "blackduck.automation.fixpr",
+          "blackduck.fixpr.enabled",
+          "fixpr.issues",
+          "network.airGap",
+          "bridge.log.*"
+        ]
+      }
+    },
+    {
+      "name": "GitLab Pull Request Handler",
+      "type": "json",
+      "stage": "GitlabFixPr",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "gitlab-pull-request-handler"
+        ],
+        "in": [
+          "gitlab.api.url",
+          "gitlab.user.token",
+          "gitlab.repository.name",
+          "gitlab.repository.branch.name",
+          "blackduck.automation.fixpr",
+          "blackduck.fixpr.enabled",
+          "fixpr.issues",
+          "network.airGap",
+          "bridge.log.*"
+        ]
+      }
+    },
+    {
+      "name": "Azure Pull Request Handler",
+      "type": "json",
+      "stage": "AzureFixPR",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "azure-pull-request-handler"
+        ],
+        "in": [
+          "azure.api.url",
+          "azure.user.token",
+          "azure.organization.name",
+          "azure.project.name",
+          "azure.repository.name",
+          "azure.repository.branch.name",
+          "blackduck.automation.fixpr",
+          "blackduck.fixpr.enabled",
+          "fixpr.issues",
+          "network.airGap",
+          "bridge.log.*"
+        ]
+      }
+    },
+    {
+      "name": "Gitlab Template Executor",
+      "type": "json",
+      "stage": "gitlab-template-executor",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "gitlab-template-executor"
+        ],
+        "in": [
+          "blackduck.install.directory",
+          "blackduck.url",
+          "blackduck.token",
+          "blackduck.scan.full",
+          "blackduck.scan.failure.severities",
+          "blackduck.automation.prcomment",
+          "blackduck.automation.fixpr",
+          "blackduck.fixpr.enabled",
+          "blackduck.fixpr.maxCount",
+          "blackduck.fixpr.createSinglePR",
+          "blackduck.fixpr.useUpgradeGuidance",
+          "blackduck.fixpr.filter.severities",
+          "coverity.connect.url",
+          "coverity.connect.user.name",
+          "coverity.connect.user.password",
+          "coverity.connect.project.name",
+          "coverity.connect.stream.name",
+          "coverity.connect.policy.view",
+          "coverity.install.directory",
+          "coverity.automation.prcomment",
+          "polaris.serverUrl",
+          "polaris.accessToken",
+          "polaris.application.name",
+          "polaris.project.name",
+          "polaris.branch.name",
+          "polaris.assessment.types",
+          "polaris.prComment.enabled",
+          "gitlab.user.token",
+          "environment.scan.pull",
+          "bridge.log.*"
+        ],
+        "out": [
+          "gitlab.repository.name",
+          "gitlab.repository.branch.name",
+          "gitlab.api.url",
+          "gitlab.repository.pull.number"
+        ]
+      }
+    },
+    {
+      "name": "Blackduck Installer",
+      "type": "json",
+      "stage": "blackduck-installer",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "blackduck-installer"
+        ],
+        "in": [
+          "downloads.blackduck.path",
+          "downloads.detectScanCli.path",
+          "blackduck.install.directory",
+          "blackduck.scanCli.install.directory",
+          "bridge.log.*"
+        ],
+        "out": [
+          "blackduck.execution.path"
+        ]
+      }
+    },
+    {
+      "name": "Coverity Installer",
+      "type": "json",
+      "stage": "coverity-installer",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "coverity-installer"
+        ],
+        "in": [
+          "downloads.coverity.path",
+          "coverity.install.directory",
+          "bridge.log.*"
+        ],
+        "out": [
+          "coverity.execution.path"
+        ]
+      }
+    },
+    {
+      "name": "Polaris SCM Discovery",
+      "type": "json",
+      "stage": "polaris",
+      "status": "done",
+      "config": {
+        "command": [
+          "scm-discovery"
+        ],
+        "in": [
+          "github.api.url",
+          "github.repository.name",
+          "github.repository.owner.name",
+          "github.repository.branch.name",
+          "github.repository.branch.parent",
+          "github.repository.pull.number",
+          "azure.api.url",
+          "azure.user.token",
+          "azure.organization.name",
+          "azure.project.name",
+          "azure.repository.name",
+          "azure.repository.branch.name",
+          "azure.repository.branch.parent",
+          "azure.repository.pull.number",
+          "bridge.log.*"
+        ],
+        "out": [
+          "scm.branch.name",
+          "scm.branch.parent"
+        ]
+      }
+    },
+    {
+      "name": "Polaris Initializer",
+      "type": "json",
+      "stage": "polaris",
+      "status": "done",
+      "config": {
+        "command": [
+          "polaris-initializer"
+        ],
+        "in": [
+          "scm.branch.name",
+          "scm.branch.parent",
+          "polaris.prComment.enabled",
+          "polaris.triage",
+          "polaris.serverUrl",
+          "polaris.accessToken",
+          "polaris.application.name",
+          "polaris.project.name",
+          "polaris.assessment.types",
+          "polaris.branch.name",
+          "polaris.branch.parent.name",
+          "polaris.onboarding",
+          "bridge.log.*"
+        ],
+        "out": [
+          "polaris.test.sast.id",
+          "polaris.test.sast.streamId",
+          "polaris.test.sca.id",
+          "polaris.project.id",
+          "polaris.branch.id",
+          "polaris.branch.parent.id",
+          "polaris.portfolioid"
+        ]
+      }
+    },
+    {
+      "name": "Polaris Controller",
+      "type": "json",
+      "stage": "polaris",
+      "status": "done",
+      "config": {
+        "command": [
+          "polaris-controller"
+        ],
+        "in": [
+          "bridge.os.type",
+          "bridge.os.arch",
+          "polaris.serverUrl",
+          "polaris.accessToken",
+          "polaris.test.sast.id",
+          "polaris.test.sca.id",
+          "polaris.test.sca.type",
+          "polaris.artifacts.coverity.path",
+          "polaris.prComment.enabled",
+          "polaris.reports.sarif.create",
+          "tool.install.directory",
+          "coverity.version",
+          "blackduck.version",
+          "environment.scan.pull",
+          "bridge.log.*"
+        ],
+        "out": [
+          "coverity.id",
+          "coverity.completed",
+          "blackduck.id",
+          "polaris.artifacts.blackduck.path"
+        ]
+      }
+    },
+    {
+      "name": "Polaris Artifacts Uploader",
+      "type": "json",
+      "stage": "polaris",
+      "status": "done",
+      "config": {
+        "command": [
+          "polaris-artifacts-uploader"
+        ],
+        "in": [
+          "coverity.id",
+          "coverity.completed",
+          "blackduck.id",
+          "blackduck.completed",
+          "polaris.serverUrl",
+          "polaris.accessToken",
+          "polaris.test.sast.id",
+          "polaris.test.sca.id",
+          "polaris.artifacts.coverity.path",
+          "polaris.artifacts.blackduck.path",
+          "bridge.log.*"
+        ],
+        "out": [
+          "polaris.artifacts.coverity.uploadSuccessful",
+          "polaris.artifacts.blackduck.uploadSuccessful"
+        ]
+      }
+    },
+    {
+      "name": "Polaris Waiter",
+      "type": "json",
+      "stage": "polaris",
+      "status": "done",
+      "config": {
+        "command": [
+          "polaris-waiter"
+        ],
+        "in": [
+          "polaris.serverUrl",
+          "polaris.accessToken",
+          "polaris.test.sast.id",
+          "polaris.test.sca.id",
+          "polaris.test.sast.pollTime",
+          "polaris.test.sca.pollTime",
+          "polaris.artifacts.coverity.uploadSuccessful",
+          "polaris.artifacts.blackduck.uploadSuccessful",
+          "bridge.log.*"
+        ],
+        "out": [
+          "polaris.test.sast.completed",
+          "polaris.test.sca.completed"
+        ]
+      }
+    },
+    {
+      "name": "Polaris Issues Fetcher",
+      "type": "json",
+      "stage": "polaris",
+      "status": "done",
+      "config": {
+        "command": [
+          "polaris-issues-fetcher"
+        ],
+        "in": [
+          "polaris.serverUrl",
+          "polaris.accessToken",
+          "polaris.project.id",
+          "polaris.test.sast.id",
+          "polaris.test.sca.id",
+          "polaris.test.sast.completed",
+          "polaris.test.sca.completed",
+          "bridge.log.*"
+        ],
+        "out": [
+          "polaris.test.sast.issues.minimal",
+          "polaris.test.sast.issues.critical",
+          "polaris.test.sast.issues.low",
+          "polaris.test.sast.issues.medium",
+          "polaris.test.sast.issues.high",
+          "polaris.test.sca.issues.minimal",
+          "polaris.test.sca.issues.critical",
+          "polaris.test.sca.issues.low",
+          "polaris.test.sca.issues.medium",
+          "polaris.test.sca.issues.high"
+        ]
+      }
+    },
+    {
+      "name": "Polaris Policy Checker",
+      "type": "json",
+      "stage": "polaris",
+      "status": "done",
+      "config": {
+        "command": [
+          "polaris-policy-checker"
+        ],
+        "in": [
+          "polaris.serverUrl",
+          "polaris.accessToken",
+          "polaris.test.sast.id",
+          "polaris.test.sca.id",
+          "polaris.test.sast.completed",
+          "polaris.test.sca.completed",
+          "bridge.log.*"
+        ],
+        "out": [
+          "bridge.break"
+        ]
+      }
+    },
+    {
+      "name": "Polaris Results",
+      "type": "json",
+      "stage": "polaris-results",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "polaris-results"
+        ],
+        "in": [
+          "polaris.serverUrl",
+          "polaris.accessToken",
+          "polaris.project.id",
+          "polaris.branch.id",
+          "polaris.branch.parent.id",
+          "polaris.test.sast.completed",
+          "polaris.test.sca.completed",
+          "polaris.prComment.enabled",
+          "polaris.prComment.severities",
+          "bridge.log.*"
+        ],
+        "out": [
+          "commenter.issues"
+        ]
+      }
+    },
+    {
+      "name": "Polaris SARIF Issues Fetcher",
+      "type": "json",
+      "stage": "polaris-reports-sarif",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "polaris-sarif-issues-fetcher"
+        ],
+        "in": [
+          "polaris.serverUrl",
+          "polaris.accessToken",
+          "polaris.assessment.types",
+          "polaris.portfolioId",
+          "polaris.project.id",
+          "polaris.branch.id",
+          "polaris.reports.sarif.issue.types",
+          "polaris.reports.sarif.severities",
+          "polaris.test.sast.completed",
+          "polaris.test.sca.completed",
+          "bridge.log.*"
+        ],
+        "out": [
+          "polaris.reports.sarif.issues"
+        ]
+      }
+    },
+    {
+      "name": "Polaris SARIF Generator",
+      "type": "json",
+      "stage": "polaris-reports-sarif",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "sarif-generator"
+        ],
+        "in": [
+          "adapter.home",
+          "polaris.reports.sarif.issues",
+          "polaris.reports.sarif.file.path",
+          "polaris.reports.sarif.groupSCAIssues",
+          "bridge.log.*"
+        ]
+      }
+    },
+    {
+      "name": "SCM Checker",
+      "type": "json",
+      "stage": "scm",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "scm-checker"
+        ],
+        "in": [
+          "github.repository.name",
+          "github.user.token",
+          "github.api.url",
+          "github.host.url",
+          "gitlab.repository.name",
+          "gitlab.user.token",
+          "gitlab.api.url",
+          "environment.scan.pull",
+          "blackduck.automation.prComment",
+          "blackduck.automation.fixpr",
+          "blackduck.fixpr.enabled",
+          "coverity.automation.prComment",
+          "polaris.prComment.enabled",
+          "github.repository.pull.number",
+          "github.repository.owner.name",
+          "github.repository.branch.name",
+          "gitlab.repository.pull.number",
+          "gitlab.repository.branch.name",
+          "azure.api.url",
+          "azure.user.token",
+          "azure.organization.name",
+          "azure.project.name",
+          "azure.repository.name",
+          "azure.repository.branch.name",
+          "azure.repository.branch.parent",
+          "azure.repository.pull.number",
+          "bitbucket.api.url",
+          "bitbucket.api.token",
+          "bitbucket.project.key",
+          "bitbucket.project.repository.name",
+          "bitbucket.project.repository.pull.number",
+          "bridge.log.*"
+        ]
+      }
+    },
+    {
+      "name": "SRM Initializer",
+      "type": "json",
+      "stage": "srm",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "srm-initializer"
+        ],
+        "in": [
+          "srm.url",
+          "srm.apiKey",
+          "srm.project.name",
+          "srm.project.id",
+          "bridge.log.*"
+        ],
+        "out": [
+          "srm.initialized"
+        ]
+      }
+    },
+    {
+      "name": "SRM Controller",
+      "type": "json",
+      "stage": "srm",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "srm-controller"
+        ],
+        "in": [
+          "srm.url",
+          "srm.apiKey",
+          "srm.initialized",
+          "srm.assessment.types",
+          "srm.project.id",
+          "tool.install.directory",
+          "blackduck.execution.path",
+          "blackduck.download.url",
+          "coverity.execution.path",
+          "network.airGap",
+          "bridge.os.type",
+          "bridge.os.arch",
+          "bridge.log.*"
+        ],
+        "out": [
+          "blackduck.scan.full"
+        ]
+      }
+    },
+    {
+      "name": "SRM Blackduck Execution",
+      "type": "json",
+      "stage": "srm-sca",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "blackduck-execution"
+        ],
+        "in": [
+          "srm.url",
+          "srm.apiKey",
+          "blackduck.execution.path",
+          "project.directory",
+          "bridge.home",
+          "adapter.home",
+          "bridge.diagnostics",
+          "bridge.log.*"
+        ],
+        "out": [
+          "srm.analysis.sca.completed",
+          "srm.analysis.sca.artifacts.path",
+          "blackduck.version"
+        ]
+      }
+    },
+    {
+      "name": "SRM Coverity Capture",
+      "type": "json",
+      "stage": "srm-sast",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "coverity-capture"
+        ],
+        "in": [
+          "coverity.execution.path",
+          "project.directory",
+          "coverity.idir.input",
+          "srm.url",
+          "srm.apiKey",
+          "srm.project.id",
+          "adapter.home",
+          "bridge.diagnostics",
+          "bridge.log.*"
+        ],
+        "out": [
+          "coverity.idir.output",
+          "srm.analysis.sast.completed",
+          "srm.analysis.sast.artifacts.path"
+        ]
+      }
+    },
+    {
+      "name": "SRM Source Zipper",
+      "type": "json",
+      "stage": "srm-sast",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "srm-source-zipper"
+        ],
+        "in": [
+          "srm.analysis.source.upload",
+          "srm.analysis.sast.completed",
+          "srm.analysis.source.preserveSymLinks",
+          "project.directory",
+          "adapter.home",
+          "bridge.home",
+          "bridge.log.*"
+        ],
+        "out": [
+          "srm.analysis.source.path"
+        ]
+      }
+    },
+    {
+      "name": "SRM Artifacts Uploader",
+      "type": "json",
+      "stage": "srm-processing",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "srm-artifacts-uploader"
+        ],
+        "in": [
+          "srm.url",
+          "srm.apiKey",
+          "srm.project.id",
+          "srm.analysis.*.artifacts.path"
+        ],
+        "out": [
+          "srm.analysis.*.artifacts.storageId"
+        ]
+      }
+    },
+    {
+      "name": "SRM Create Analysis",
+      "type": "json",
+      "stage": "srm-processing",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "srm-create-analysis"
+        ],
+        "in": [
+          "srm.url",
+          "srm.apiKey",
+          "srm.project.id",
+          "srm.analysis.*.completed",
+          "bridge.log.*"
+        ],
+        "out": [
+          "srm.analysis.prepId"
+        ]
+      }
+    },
+    {
+      "name": "SRM Analysis Tool Input",
+      "type": "json",
+      "stage": "srm-processing",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "srm-analysis-tool-input"
+        ],
+        "in": [
+          "srm.url",
+          "srm.apiKey",
+          "srm.analysis.prepId",
+          "srm.analysis.*.artifacts.storageId",
+          "coverity.version",
+          "blackduck.version",
+          "bridge.log.*"
+        ],
+        "out": [
+          "srm.analysis.toolInputsCreated"
+        ]
+      }
+    },
+    {
+      "name": "SRM Analysis Source Input",
+      "type": "json",
+      "stage": "srm-sast",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "srm-analysis-source-input"
+        ],
+        "in": [
+          "srm.url",
+          "srm.apiKey",
+          "srm.analysis.source.upload",
+          "srm.analysis.source.path",
+          "srm.analysis.prepId",
+          "bridge.log.*"
+        ],
+        "out": [
+          "srm.analysis.sourceInputCreated"
+        ]
+      }
+    },
+    {
+      "name": "SRM Analysis Set Branch",
+      "type": "json",
+      "stage": "srm-processing",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "srm-analysis-set-branch"
+        ],
+        "in": [
+          "srm.url",
+          "srm.apiKey",
+          "srm.project.id",
+          "srm.analysis.prepId",
+          "srm.branch.name",
+          "srm.branch.parent",
+          "bridge.log.*"
+        ],
+        "out": [
+          "srm.analysis.branchSet"
+        ]
+      }
+    },
+    {
+      "name": "SRM Start Analysis",
+      "type": "json",
+      "stage": "srm-processing",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "srm-start-analysis"
+        ],
+        "in": [
+          "srm.url",
+          "srm.apiKey",
+          "srm.analysis.prepId",
+          "srm.analysis.branchSet",
+          "srm.analysis.toolInputsCreated",
+          "bridge.log.*"
+        ],
+        "out": [
+          "srm.analysis.job.id"
+        ]
+      }
+    },
+    {
+      "name": "SRM Waiter",
+      "type": "json",
+      "stage": "srm-post-processing",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "srm-waiter"
+        ],
+        "in": [
+          "srm.url",
+          "srm.apiKey",
+          "srm.analysis.job.id"
+        ],
+        "out": [
+          "srm.analysis.completed"
+        ]
+      }
+    },
+    {
+      "name": "SRM Policies",
+      "type": "json",
+      "stage": "srm-post-processing",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "srm-policies"
+        ],
+        "in": [
+          "srm.url",
+          "srm.apiKey",
+          "srm.project.id",
+          "srm.branch.name",
+          "srm.analysis.completed",
+          "bridge.log.*"
+        ],
+        "out": [
+          "srm.analysis.break"
+        ]
+      }
+    },
+    {
+      "name": "SRM Findings",
+      "type": "json",
+      "stage": "srm-post-processing",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "srm-findings"
+        ],
+        "in": [
+          "srm.url",
+          "srm.apiKey",
+          "srm.project.id",
+          "srm.branch.name",
+          "srm.analysis.completed",
+          "bridge.log.*"
+        ],
+        "out": [
+          "srm.analysis.issues.*"
+        ]
+      }
+    },
+    {
+      "name": "SRM Summary",
+      "type": "json",
+      "stage": "srm-post-processing",
+      "status": "loaded",
+      "config": {
+        "command": [
+          "srm-summary"
+        ],
+        "in": [
+          "srm.analysis.completed",
+          "srm.analysis.break",
+          "srm.analysis.issues.*",
+          "bridge.log.*"
+        ],
+        "out": [
+          "bridge.break"
+        ]
+      }
+    },
+    {
+      "name": "Set Environment Scan Pull",
+      "type": "default",
+      "stage": "",
+      "status": "done",
+      "config": {
+        "set": {
+          "key": "environment.scan.pull",
+          "value": "true"
+        },
+        "command": null
+      }
+    },
+    {
+      "name": "Blackduck Execution",
+      "type": "ConfiguredExecutable",
+      "stage": "polaris",
+      "status": "done",
+      "config": {
+        "command": [
+          "blackduck-execution"
+        ],
+        "in": [
+          "polaris.test.sca.type",
+          "blackduck.execution.path",
+          "blackduck.scanCli.install.directory",
+          "project.directory",
+          "bridge.home",
+          "adapter.home",
+          "bridge.diagnostics",
+          "bridge.log.*"
+        ],
+        "out": [
+          "blackduck.completed",
+          "polaris.artifacts.blackduck.path"
+        ]
+      }
+    },
+    {
+      "name": "Default Adapter for execution path",
+      "type": "default",
+      "stage": "",
+      "status": "done",
+      "config": {
+        "set": {
+          "key": "blackduck.execution.path",
+          "value": "/Users/chakrava/.synopsys/bridge/tools/synopsys-detect/9.0.0/synopsys_detect-9.0.0.jar"
+        },
+        "command": null
+      }
+    }
+  ]
+}

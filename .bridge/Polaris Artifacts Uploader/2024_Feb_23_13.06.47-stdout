@@ -1,0 +1,4 @@
+polaris-artifacts-uploader /var/folders/nh/fdzv0dcj5fz72k757z0hr1sr0000gp/T/tempDir3961450856/data.json
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"uploading artifact for \"sca\" assessment with id \"43cec1b9-34de-4976-828e-a278403c6eb8\"","time":"2024-02-23 13:06:47.4620 IST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"successfully uploaded artifact \"/Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/bdio/blackduck_artifact/scan.bdio\"","time":"2024-02-23 13:06:51.3310 IST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"successfully resumed \"sca\" assessment with id \"43cec1b9-34de-4976-828e-a278403c6eb8\"","time":"2024-02-23 13:06:51.8311 IST"}

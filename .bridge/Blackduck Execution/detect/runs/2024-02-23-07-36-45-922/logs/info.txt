@@ -1,0 +1,48 @@
+2024-02-23T07:36:46,166Z INFO [DiagnosticLogger.java:33] Redirected to file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/logs/info.txt
+2024-02-23T07:36:46,167Z INFO [DiagnosticLogSystem.java:46] Attempting to restrict console to debug level (additional levels written to files).
+2024-02-23T07:36:46,167Z INFO [DiagnosticLogSystem.java:49] Adding additional log listeners to extractions.
+2024-02-23T07:36:46,167Z INFO [DiagnosticLogSystem.java:54] Diagnostics is now in control of logging!
+2024-02-23T07:36:46,169Z INFO [DiagnosticSystem.java:69] Creating configuration diagnostics reports.
+2024-02-23T07:36:46,169Z INFO [DiagnosticSystem.java:73] Diagnostics system is ready.
+2024-02-23T07:36:46,170Z INFO [DetectBoot.java:183] 
+2024-02-23T07:36:46,355Z INFO [StepHelper.java:62] ----------------------------------
+2024-02-23T07:36:46,356Z INFO [StepHelper.java:70] Docker tool will not be run.
+2024-02-23T07:36:46,356Z INFO [StepHelper.java:62] ----------------------------------
+2024-02-23T07:36:46,357Z INFO [StepHelper.java:70] Bazel tool will not be run.
+2024-02-23T07:36:46,357Z INFO [StepHelper.java:62] ----------------------------------
+2024-02-23T07:36:46,358Z INFO [StepHelper.java:64] Will include the Detectors tool.
+2024-02-23T07:36:46,395Z INFO [DirectoryFinder.java:21] Searching for detectors.
+2024-02-23T07:36:46,404Z INFO [DirectoryEvaluator.java:41] Evaluating detectors. This may take a while.
+2024-02-23T07:36:46,647Z INFO [Slf4jIntLogger.java:42] Running executable >/usr/local/bin/git --version
+2024-02-23T07:36:46,667Z INFO [Slf4jIntLogger.java:42] Process return code: 0
+2024-02-23T07:36:46,671Z INFO [Slf4jIntLogger.java:42] Running executable >/usr/local/bin/git config --get remote.origin.url
+2024-02-23T07:36:46,690Z INFO [Slf4jIntLogger.java:42] Process return code: 0
+2024-02-23T07:36:46,691Z INFO [Slf4jIntLogger.java:42] Running executable >/usr/local/bin/git rev-parse --abbrev-ref HEAD
+2024-02-23T07:36:46,711Z INFO [Slf4jIntLogger.java:42] Process return code: 0
+2024-02-23T07:36:46,712Z INFO [Slf4jIntLogger.java:42] Running executable >/usr/local/bin/git rev-parse HEAD
+2024-02-23T07:36:46,730Z INFO [Slf4jIntLogger.java:42] Process return code: 0
+2024-02-23T07:36:46,753Z INFO [DetectorTool.java:159] ======================================================================================================
+2024-02-23T07:36:46,754Z INFO [DetectorTool.java:160] Detector Report
+2024-02-23T07:36:46,754Z INFO [DetectorTool.java:161] ======================================================================================================
+2024-02-23T07:36:46,755Z INFO [DetectorTool.java:166] 	/Users/chakrava/go/src/scan_projects/NodeGoat (depth 0)
+2024-02-23T07:36:46,755Z INFO [DetectorTool.java:168] 		Git: SUCCESS
+2024-02-23T07:36:46,755Z INFO [DetectorTool.java:170] 			Found file: /Users/chakrava/go/src/scan_projects/NodeGoat/.git
+2024-02-23T07:36:46,756Z INFO [DetectorTool.java:170] 			Found executable: /usr/local/bin/git
+2024-02-23T07:36:46,756Z INFO [DetectorTool.java:194] ----------------------------------
+2024-02-23T07:36:46,779Z INFO [StepHelper.java:67] Detectors actions finished.
+2024-02-23T07:36:46,780Z INFO [UniversalStepRunner.java:105] ----------------------------------
+2024-02-23T07:36:46,783Z INFO [UniversalStepRunner.java:112] Project name: sig-rnd-io-testuser/NodeGoat
+2024-02-23T07:36:46,783Z INFO [UniversalStepRunner.java:113] Project version: main
+2024-02-23T07:36:46,918Z INFO [StepHelper.java:62] ----------------------------------
+2024-02-23T07:36:46,918Z INFO [StepHelper.java:70] Signature Scanner tool will not be run.
+2024-02-23T07:36:46,919Z INFO [StepHelper.java:62] ----------------------------------
+2024-02-23T07:36:46,919Z INFO [StepHelper.java:70] Vulnerability Impact Analysis tool will not be run.
+2024-02-23T07:36:46,919Z INFO [StepHelper.java:62] ----------------------------------
+2024-02-23T07:36:46,919Z INFO [StepHelper.java:70] IaC Scanner tool will not be run.
+2024-02-23T07:36:46,921Z INFO [Application.java:155] 
+2024-02-23T07:36:46,921Z INFO [Application.java:223] 
+2024-02-23T07:36:46,921Z INFO [Application.java:226] Creating status file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/status/status.json
+2024-02-23T07:36:46,940Z INFO [Application.java:244] 
+2024-02-23T07:36:46,943Z INFO [DiagnosticSystem.java:83] Finishing diagnostic mode.
+2024-02-23T07:36:46,943Z INFO [DiagnosticSystem.java:86] Finishing reports.
+2024-02-23T07:36:46,945Z INFO [DiagnosticSystem.java:93] Finishing logging.

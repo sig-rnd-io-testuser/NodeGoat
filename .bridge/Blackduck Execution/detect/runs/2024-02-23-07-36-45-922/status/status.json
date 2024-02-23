@@ -1,0 +1,67 @@
+{
+  "formatVersion": "0.5.0",
+  "detectVersion": "9.0.0",
+  "projectName": "sig-rnd-io-testuser/NodeGoat",
+  "projectVersion": "main",
+  "detectors": [
+    {
+      "folder": "/Users/chakrava/go/src/scan_projects/NodeGoat",
+      "detectorType": "GIT",
+      "detectorName": "Git",
+      "detectorAccuracy": "HIGH",
+      "extracted": true,
+      "status": "SUCCESS",
+      "statusCode": "PASSED",
+      "statusReason": "Passed",
+      "relevantFiles": [],
+      "explanations": [
+        "Found file: /Users/chakrava/go/src/scan_projects/NodeGoat/.git",
+        "Found executable: /usr/local/bin/git"
+      ],
+      "projectName": "sig-rnd-io-testuser/NodeGoat",
+      "projectVersion": "main",
+      "codeLocationCount": 0
+    }
+  ],
+  "status": [
+    {
+      "key": "GIT",
+      "status": "SUCCESS"
+    }
+  ],
+  "issues": [],
+  "overallStatus": [
+    {
+      "key": "SUCCESS",
+      "status": "Detect exited successfully."
+    }
+  ],
+  "results": [],
+  "unrecognizedPaths": {},
+  "codeLocations": [],
+  "propertyValues": {
+    "blackduck.offline.mode": "true",
+    "blackduck.offline.mode.force.bdio": "true",
+    "detect.bdio.file.name": "scan",
+    "detect.bdio.output.path": "/Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/bdio/blackduck_artifact",
+    "detect.cleanup": "false",
+    "detect.diagnostic": "true",
+    "detect.excluded.directories": "/Users/chakrava/go/src/scan_projects/NodeGoat/.bridge",
+    "detect.output.path": "/Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect",
+    "detect.tools": "DETECTOR"
+  },
+  "operations": [
+    {
+      "startTimestamp": "2024-02-23 07:36:46.359",
+      "endTimestamp": "2024-02-23 07:36:46.779",
+      "descriptionKey": "Execute Detectors",
+      "status": "SUCCESS"
+    },
+    {
+      "startTimestamp": "2024-02-23 07:36:46.785",
+      "endTimestamp": "2024-02-23 07:36:46.789",
+      "descriptionKey": "SubProject Aggregate",
+      "status": "SUCCESS"
+    }
+  ]
+}

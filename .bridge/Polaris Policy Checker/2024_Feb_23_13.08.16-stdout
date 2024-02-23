@@ -1,0 +1,3 @@
+polaris-policy-checker /var/folders/nh/fdzv0dcj5fz72k757z0hr1sr0000gp/T/tempDir3891498098/data.json
+{"level":"info","logger":"Polaris Policy Checker","msg":"Checking for policy violations for \"SCA\" assessment...","time":"2024-02-23 13:08:16.6617 IST"}
+{"level":"info","logger":"Polaris Policy Checker","msg":"no policies were violated to break the build","time":"2024-02-23 13:08:17.6524 IST"}
