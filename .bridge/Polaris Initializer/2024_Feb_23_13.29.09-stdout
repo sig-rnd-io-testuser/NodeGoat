@@ -1,5 +1,0 @@
-polaris-initializer /var/folders/nh/fdzv0dcj5fz72k757z0hr1sr0000gp/T/tempDir1525932598/data.json
-{"level":"debug","logger":"Polaris Initializer","msg":"Successfully fetched portfolio id : a8389446-9e48-4a1c-87b3-f9b22196824b","time":"2024-02-23 13:29:10.5329 IST"}
-{"level":"debug","logger":"Polaris Initializer","msg":"Successfully fetched application id : 2da10964-6b54-4a9d-8fbf-33379ca6d6f2","time":"2024-02-23 13:29:10.8494 IST"}
-{"level":"debug","logger":"Polaris Initializer","msg":"Successfully fetched project id : fe2e2c5c-dc4d-4baa-ba83-1573d6cec7db","time":"2024-02-23 13:29:11.2085 IST"}
-{"level":"info","logger":"Polaris Initializer","msg":"Branch doesn't exist. Will create new branch as 'polaris.onboarding' is set to 'true'","time":"2024-02-23 13:29:11.5827 IST"}
