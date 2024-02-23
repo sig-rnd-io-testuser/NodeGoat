@@ -1,0 +1,17 @@
+------------------------------------------------------------------------------------------------------
+
+Report: Detector Report
+Run id: 2024-02-23-07-36-45-922
+A breakdown of detector's that were applicableChildren and their preparation and extraction results.
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+DIRECTORY: /Users/chakrava/go/src/scan_projects/NodeGoat
+DETECTOR: GIT
+EXTRACTED: Git
+	EXTRACTION: 0 Code Locations
+		Found file: /Users/chakrava/go/src/scan_projects/NodeGoat/.git
+		Found executable: /usr/local/bin/git
+======================================================================================================
+
+

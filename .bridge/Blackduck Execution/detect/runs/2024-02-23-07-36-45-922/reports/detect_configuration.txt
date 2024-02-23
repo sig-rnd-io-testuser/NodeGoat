@@ -1,0 +1,31 @@
+------------------------------------------------------------------------------------------------------
+
+Report: Detect Configuration Report
+Run id: 2024-02-23-07-36-45-922
+A complete set of all parameters detect used, including detect run and version.
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+Detect Info
+------------------------------------------------------------------------------------------------------
+Detect Version: 9.0.0
+Operating System: MAC
+------------------------------------------------------------------------------------------------------
+Detect Configuration
+------------------------------------------------------------------------------------------------------
+
+Current property values:
+--property = value [notes]
+------------------------------------------------------------
+blackduck.offline.mode = true [cmd] 
+blackduck.offline.mode.force.bdio = true [cmd] 
+detect.bdio.file.name = scan [cmd] 
+detect.bdio.output.path = /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/bdio/blackduck_artifact [cmd] 
+detect.cleanup = false [cmd] 
+detect.diagnostic = true [cmd] 
+detect.excluded.directories = /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge [env] 
+detect.output.path = /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect [cmd] 
+detect.tools = DETECTOR [cmd] 
+------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------

@@ -1,0 +1,4 @@
+0: /usr/local/bin/git --version
+1: /usr/local/bin/git config --get remote.origin.url
+2: /usr/local/bin/git rev-parse --abbrev-ref HEAD
+3: /usr/local/bin/git rev-parse HEAD

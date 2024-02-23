@@ -1,0 +1,198 @@
+blackduck-execution /var/folders/nh/fdzv0dcj5fz72k757z0hr1sr0000gp/T/tempDir827641965/data.json
+{"level":"info","logger":"Blackduck Execution","msg":"Running command java -jar /Users/chakrava/.synopsys/bridge/tools/synopsys-detect/9.0.0/synopsys_detect-9.0.0.jar --detect.cleanup=false --detect.bdio.file.name=scan --detect.bdio.output.path=/Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/bdio/blackduck_artifact --detect.output.path=/Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect --detect.diagnostic=true --detect.tools=DETECTOR --blackduck.offline.mode=true --blackduck.offline.mode.force.bdio=true","time":"2024-02-23 13:06:44.8021 IST"}
+{"external_parsed":true,"extras":["main"],"level":"warning","logger":"Blackduck Execution","msg":"--- Detect-Self-Updater:  Self-Update feature is disabled because of the following reasons:","time":"2024-02-23 13:06:45.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"warning","logger":"Blackduck Execution","msg":"--- Detect-Self-Updater:  Detect in offline mode is incompatible with the Self-Update feature.","time":"2024-02-23 13:06:45.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"warning","logger":"Blackduck Execution","msg":"--- Detect-Self-Updater:  Black Duck URL is required for the Self-Update feature.","time":"2024-02-23 13:06:45.0000 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"______     _            _","time":"2024-02-23 13:06:45.7843 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"|  _  \\   | |          | |","time":"2024-02-23 13:06:45.7843 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"| | | |___| |_ ___  ___| |_","time":"2024-02-23 13:06:45.7844 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"| | | / _ \\ __/ _ \\/ __| __|","time":"2024-02-23 13:06:45.7844 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"| |/ /  __/ ||  __/ (__| |_","time":"2024-02-23 13:06:45.7844 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"|___/ \\___|\\__\\___|\\___|\\__|","time":"2024-02-23 13:06:45.7845 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"","time":"2024-02-23 13:06:45.7845 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"","time":"2024-02-23 13:06:45.9693 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"Detect Version: 9.0.0","time":"2024-02-23 13:06:45.9694 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"","time":"2024-02-23 13:06:45.9694 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Current property values:","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- --property = value [notes]","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ------------------------------------------------------------","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- blackduck.offline.mode = true [cmd] ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- blackduck.offline.mode.force.bdio = true [cmd] ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- detect.bdio.file.name = scan [cmd] ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- detect.bdio.output.path = /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/bdio/blackduck_artifact [cmd] ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- detect.cleanup = false [cmd] ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- detect.diagnostic = true [cmd] ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- detect.excluded.directories = /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge [env] ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- detect.output.path = /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect [cmd] ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- detect.tools = DETECTOR [cmd] ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ------------------------------------------------------------","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Detect build date: 2023-09-12","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Source directory: /Users/chakrava/go/src/scan_projects/NodeGoat","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Output directory: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Run directory: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"","time":"2024-02-23 13:06:46.1277 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++","time":"2024-02-23 13:06:46.1278 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"Diagnostic mode on.","time":"2024-02-23 13:06:46.1278 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"A zip file will be created with logs and relevant Detect output files.","time":"2024-02-23 13:06:46.1279 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"It is generally not recommended to leave diagnostic mode on as you must manually clean up the zip.","time":"2024-02-23 13:06:46.1280 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++","time":"2024-02-23 13:06:46.1280 IST"}
+{"external_parsed":true,"level":"info","logger":"Blackduck Execution","msg":"","time":"2024-02-23 13:06:46.1280 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Initializing diagnostic components.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Created report file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/reports/search_report.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Created report file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/reports/search_detailed_report.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Created report file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/reports/detector_report.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Created report file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/reports/detector_profile_report.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Created report file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/reports/code_location_report.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Created report file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/reports/dependency_counts_report.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Created report file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/reports/detect_configuration.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Attempting to capture sysout.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Writing sysout to file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/logs/sysout.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Attempting to set 'com.synopsys.integration' logging level.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Attempting to capture additional log messages to files.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Redirected to file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/logs/all.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Redirected to file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/logs/debug.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Redirected to file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/logs/info.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Attempting to restrict console to debug level (additional levels written to files).","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Adding additional log listeners to extractions.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Diagnostics is now in control of logging!","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Creating configuration diagnostics reports.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Diagnostics system is ready.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Main boot completed. Deciding what Detect should do.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Black Duck will run: Black Duck offline mode was set to true.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Decided what products will be run. Starting product boot.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Detect product boot start.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Detect product boot completed.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Detect boot completed.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Detect will attempt to run.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Unable to guess detect jar file, relative jar file was null.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Exception encountered when guessing air gap path for docker","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- null","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Exception encountered when guessing air gap path for gradle","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- null","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Exception encountered when guessing air gap path for nuget","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- null","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Exception encountered when guessing air gap path for project-inspector","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- null","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ----------------------------------","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Docker tool will not be run.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ----------------------------------","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Bazel tool will not be run.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ----------------------------------","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Will include the Detectors tool.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Starting detector file system traversal.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Searching for detectors.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- filteredSubDirectories: [/Users/chakrava/go/src/scan_projects/NodeGoat/README.md]","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Evaluating detectors. This may take a while.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Determining applicable detectors on the directory: /Users/chakrava/go/src/scan_projects/NodeGoat","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Attempting GitCliDetectable","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Running executable \u003e/usr/local/bin/git --version","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main-Executable_Stream_Thread"],"level":"debug","logger":"Blackduck Execution","msg":"--- git version 2.39.2","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Process return code: 0","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Running executable \u003e/usr/local/bin/git config --get remote.origin.url","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Process return code: 0","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Running executable \u003e/usr/local/bin/git rev-parse --abbrev-ref HEAD","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main-Executable_Stream_Thread"],"level":"debug","logger":"Blackduck Execution","msg":"--- main","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Process return code: 0","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Running executable \u003e/usr/local/bin/git rev-parse HEAD","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main-Executable_Stream_Thread"],"level":"debug","logger":"Blackduck Execution","msg":"--- e3d5a35cff5a7a5abacfd9ee354ae4837142b139","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Process return code: 0","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Detector Type GIT Entry Point Git applied and was attempted","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Detector results (\"true\" = succeeded): [Git: true]","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Found (1) applicable detectors in: /Users/chakrava/go/src/scan_projects/NodeGoat","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Finished detectors.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ======================================================================================================","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Detector Report","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ======================================================================================================","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- \t/Users/chakrava/go/src/scan_projects/NodeGoat (depth 0)","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- \t\tGit: SUCCESS","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- \t\t\tFound file: /Users/chakrava/go/src/scan_projects/NodeGoat/.git","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- \t\t\tFound executable: /usr/local/bin/git","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ----------------------------------","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Publishing file events.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- A valid preferred detector type was not provided, deciding project name automatically.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Exactly one unique detector was found. Using GIT found at depth 0 as project info.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Finished evaluating detectors for project info.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Finished running detectors.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- ======================================================================================================","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Search results","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- ======================================================================================================","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- /Users/chakrava/go/src/scan_projects/NodeGoat","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- \tFOUND: GIT","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- ======================================================================================================","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Detectors actions finished.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ----------------------------------","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Completed code location tools.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Determining project info.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Using the first ordered tool with project info: DETECTOR","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Project name: sig-rnd-io-testuser/NodeGoat","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Project version: main","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- BDIO Generated: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/bdio/blackduck_artifact/scan.bdio","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ----------------------------------","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Signature Scanner tool will not be run.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ----------------------------------","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Vulnerability Impact Analysis tool will not be run.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ----------------------------------","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- IaC Scanner tool will not be run.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Creating status file: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/2024-02-23-07-36-45-922/status/status.json","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Detect shutdown begin.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Finishing diagnostic mode.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Finishing reports.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Finishing logging.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Finishing executable capture.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Finishing file capture.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Creating diagnostics zip.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Diagnostics zip location: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/detect-run-2024-02-23-07-36-45-922.zip","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: executables/EXE-2-STD.xout","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: executables/EXE-3-STD.xout","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: executables/EXE-MAP.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: executables/EXE-1-ERR.xout","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: executables/EXE-0-ERR.xout","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: executables/EXE-1-STD.xout","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: executables/EXE-0-STD.xout","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: executables/EXE-2-ERR.xout","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: executables/EXE-3-ERR.xout","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: status/status.json","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: logs/all.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: logs/debug.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: logs/info.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: logs/sysout.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: reports/search_report.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: reports/detector_report.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: reports/dependency_counts_report.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: reports/search_detailed_report.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: reports/detect_configuration.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: reports/code_location_report.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Adding file to zip: reports/detector_profile_report.txt","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Diagnostics file created at: /Users/chakrava/go/src/scan_projects/NodeGoat/.bridge/Blackduck Execution/detect/runs/detect-run-2024-02-23-07-36-45-922.zip","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Diagnostic mode has completed.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Skipping cleanup, it is disabled.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Detect shutdown completed.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- All Detect actions completed.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- === Additional  Information ===","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- ====== Detect Operations ======","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- Execute Detectors: SUCCESS","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- SubProject Aggregate: SUCCESS","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- ===============================","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"debug","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ======== Detect Status ========","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- GIT: SUCCESS","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Overall Status: SUCCESS - Detect exited successfully.","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ===============================","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- ","time":"2024-02-23 13:06:46.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Blackduck Execution","msg":"--- Detect duration: 00h 00m 01s 064ms","time":"2024-02-23 13:06:46.0000 IST"}
