@@ -1,7 +1,0 @@
-polaris-initializer /var/folders/nh/fdzv0dcj5fz72k757z0hr1sr0000gp/T/tempDir779538134/data.json
-{"level":"debug","logger":"Polaris Initializer","msg":"Successfully fetched portfolio id : a8389446-9e48-4a1c-87b3-f9b22196824b","time":"2024-02-23 13:06:38.8480 IST"}
-{"level":"debug","logger":"Polaris Initializer","msg":"Successfully fetched application id : 2da10964-6b54-4a9d-8fbf-33379ca6d6f2","time":"2024-02-23 13:06:39.2060 IST"}
-{"level":"info","logger":"Polaris Initializer","msg":"project doesn't exist. Will create new project as 'polaris.onboarding' is set to 'true'","time":"2024-02-23 13:06:39.5119 IST"}
-{"level":"debug","logger":"Polaris Initializer","msg":"successfully created the project: projectId=fe2e2c5c-dc4d-4baa-ba83-1573d6cec7db, branchId=cfd0d335-61e8-4262-a3d8-029075bc7878","time":"2024-02-23 13:06:39.9311 IST"}
-{"level":"debug","logger":"Polaris Initializer","msg":"Creating test for \"SCA\" assessment","time":"2024-02-23 13:06:39.9313 IST"}
-{"level":"info","logger":"Polaris Initializer","msg":"Successfully created test for \"SCA\" assessment","time":"2024-02-23 13:06:40.5442 IST"}

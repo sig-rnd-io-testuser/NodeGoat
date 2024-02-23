@@ -1,3 +1,0 @@
-polaris-issues-fetcher /var/folders/nh/fdzv0dcj5fz72k757z0hr1sr0000gp/T/tempDir3308670987/data.json
-{"level":"info","logger":"Polaris Issues Fetcher","msg":"Fetching issues for \"SCA\" assessment","time":"2024-02-23 13:08:18.0587 IST"}
-{"level":"info","logger":"Polaris Issues Fetcher","msg":"Successfully fetched issues for assessment type \"SCA\" with id \"43cec1b9-34de-4976-828e-a278403c6eb8\"\n {\n \"critical\": 0,\n \"high\": 0,\n \"informational\": 0,\n \"low\": 0,\n \"medium\": 0\n}","time":"2024-02-23 13:08:19.1075 IST"}

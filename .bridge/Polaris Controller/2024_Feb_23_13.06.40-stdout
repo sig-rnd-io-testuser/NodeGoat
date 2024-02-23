@@ -1,4 +1,0 @@
-polaris-controller /var/folders/nh/fdzv0dcj5fz72k757z0hr1sr0000gp/T/tempDir1739794262/data.json
-{"level":"info","logger":"Polaris Controller","msg":"fetching recommended \"blackduck\" tool info...","time":"2024-02-23 13:06:41.0125 IST"}
-{"level":"info","logger":"Polaris Controller","msg":"checking \"blackduck\" tool installation inside bridge home directory: /Users/chakrava/.synopsys/bridge/tools/synopsys-detect/9.0.0","time":"2024-02-23 13:06:41.9819 IST"}
-{"level":"info","logger":"Polaris Controller","msg":"\"blackduck\" tool is already installed...","time":"2024-02-23 13:06:44.3512 IST"}

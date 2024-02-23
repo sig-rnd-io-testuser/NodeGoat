@@ -1,5 +1,0 @@
-polaris-waiter /var/folders/nh/fdzv0dcj5fz72k757z0hr1sr0000gp/T/tempDir2235251063/data.json
-{"level":"info","logger":"Polaris Waiter","msg":"Waiting for test with assessment type \"sca\" and id \"43cec1b9-34de-4976-828e-a278403c6eb8\"","time":"2024-02-23 13:06:52.5041 IST"}
-{"level":"info","logger":"Polaris Waiter","msg":"Polling Test Manager: state of test with assessment type \"sca\" and id \"43cec1b9-34de-4976-828e-a278403c6eb8\" is \"Queuing\"","time":"2024-02-23 13:06:53.5373 IST"}
-{"level":"info","logger":"Polaris Waiter","msg":"Polling Test Manager: state of test with assessment type \"sca\" and id \"43cec1b9-34de-4976-828e-a278403c6eb8\" is \"Scanning \u0026 Publishing\"","time":"2024-02-23 13:08:05.9340 IST"}
-{"level":"info","logger":"Polaris Waiter","msg":"test with assessment type \"sca\" and id \"43cec1b9-34de-4976-828e-a278403c6eb8\" completed successfully","time":"2024-02-23 13:08:16.2326 IST"}
